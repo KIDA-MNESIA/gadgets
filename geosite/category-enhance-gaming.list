@@ -1,0 +1,32 @@
+DOMAIN-SUFFIX,playcover.io
+DOMAIN-SUFFIX,playcover.workers.dev
+
+DOMAIN-SUFFIX,fflogs.com
+DOMAIN-SUFFIX,rpglogs.com
+
+DOMAIN-SUFFIX,rpglogs.cn
+
+DOMAIN-SUFFIX,thetrackernetwork.com
+DOMAIN-SUFFIX,tracker.gg
+DOMAIN-SUFFIX,tracker.network
+
+
+# Anti-Cheat
+DOMAIN-SUFFIX,battleye.com
+
+# Android Emulator
+DOMAIN-SUFFIX,bluestacks.com
+DOMAIN-SUFFIX,ldmnq.com
+DOMAIN-SUFFIX,lsplayer.com
+DOMAIN-SUFFIX,yeshen.com
+
+# Arknights
+DOMAIN-SUFFIX,maa.plus
+DOMAIN-SUFFIX,prts.plus
+
+# KanColle
+DOMAIN-SUFFIX,heavenlywind.cc
+DOMAIN-SUFFIX,poi.moe
+
+# Steam++ / Watt Toolkit
+DOMAIN-SUFFIX,steampp.net
