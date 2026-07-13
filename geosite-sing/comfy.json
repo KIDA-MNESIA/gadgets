@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "oystermercury.top",
+        "comfy.org",
+        "comfyci.org",
+        "comfyregistry.org"
+      ]
+    }
+  ]
+}

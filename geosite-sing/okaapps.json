@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "rules": [
+    {
+      "domain_suffix": [
+        "domain:okaapps.com"
+      ],
+      "domain_regex": [
+        "^(.+\\.)*zh\\.okaapps\\.com$"
+      ]
+    }
+  ]
+}
