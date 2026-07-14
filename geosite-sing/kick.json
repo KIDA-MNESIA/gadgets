@@ -3,9 +3,7 @@
   "rules": [
     {
       "domain_suffix": [
-        "gismeteo.net",
-        "gismeteo.ru",
-        "gismeteo.st"
+        "kick.com"
       ]
     }
   ]
