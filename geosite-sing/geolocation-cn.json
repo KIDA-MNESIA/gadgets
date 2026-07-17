@@ -65,6 +65,7 @@
         "geetest.datasink.sensorsdata.cn",
         "hellofontpreview.oss-cn-beijing.aliyuncs.com",
         "hellowebfonts.oss-cn-beijing.aliyuncs.com",
+        "api.blipsandchitz.me",
         "account-cn.alibabacloud.com",
         "api.alibabacloud.com",
         "cn.alibabacloud.com",
@@ -8266,7 +8267,8 @@
         "taichuan.net",
         "vhengdata.com",
         "wanji.net.cn",
-        "yebinnet.com"
+        "yebinnet.com",
+        "hrsecn.com"
       ],
       "domain_regex": [
         "^.+-mihayo\\.akamaized\\.net$",
