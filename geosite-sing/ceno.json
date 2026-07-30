@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain_suffix": [
+        "ceno.app",
         "censorship.no"
       ]
     }

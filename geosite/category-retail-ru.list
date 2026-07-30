@@ -13,11 +13,18 @@ DOMAIN-SUFFIX,bristol.ru
 # Children's World
 DOMAIN-SUFFIX,detmir.ru
 
+# Citilink
+DOMAIN-SUFFIX,citilink.ru
+
 # Coolera
 DOMAIN-SUFFIX,coolera.ru
 
 # Dixie
 DOMAIN-SUFFIX,dixy.ru
+
+# DNS internet shop
+DOMAIN-SUFFIX,dns-shop.ru
+DOMAIN-SUFFIX,dns-com.ru
 
 # Dodo Pizza
 DOMAIN-SUFFIX,dodois.com
@@ -71,6 +78,9 @@ DOMAIN-SUFFIX,notik.ru
 DOMAIN-SUFFIX,oskelly.co
 DOMAIN-SUFFIX,oskelly.ru
 
+
+# O'STIN
+DOMAIN-SUFFIX,ostin.com
 
 # Pyaterochka, Perekrestok, Chizhik
 DOMAIN-SUFFIX,5ka.ru
