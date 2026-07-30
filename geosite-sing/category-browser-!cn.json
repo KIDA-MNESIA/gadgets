@@ -3,9 +3,11 @@
   "rules": [
     {
       "domain": [
-        "mozilla-ohttp.fastly-edge.com"
+        "mozilla-ohttp.fastly-edge.com",
+        "mozilla.map.fastly.net"
       ],
       "domain_suffix": [
+        "ceno.app",
         "censorship.no",
         "epicbrowser.com",
         "extendfirefox.com",

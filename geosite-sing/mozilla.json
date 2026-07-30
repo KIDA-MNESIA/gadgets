@@ -4,6 +4,7 @@
     {
       "domain": [
         "mozilla-ohttp.fastly-edge.com",
+        "mozilla.map.fastly.net",
         "mdn.mozillademos.org",
         "ads-img.mozilla.org",
         "ads.mozilla.org",

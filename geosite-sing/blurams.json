@@ -3,6 +3,7 @@
   "rules": [
     {
       "domain_suffix": [
+        "blurams.app",
         "blurams.com"
       ]
     }

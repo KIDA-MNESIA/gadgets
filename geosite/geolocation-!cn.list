@@ -189,6 +189,7 @@ DOMAIN-SUFFIX,windsurf.com
 
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grok.x.com
+DOMAIN-SUFFIX,grokipedia.com
 DOMAIN-SUFFIX,x.ai
 
 # Youmind
@@ -292,6 +293,7 @@ DOMAIN-SUFFIX,jorropo.net
 DOMAIN-SUFFIX,nftstorage.link
 DOMAIN-SUFFIX,via0.com
 
+DOMAIN-SUFFIX,ceno.app
 DOMAIN-SUFFIX,censorship.no
 
 DOMAIN-SUFFIX,citizenlab.ca
@@ -1908,15 +1910,16 @@ DOMAIN-SUFFIX,megamarket.ru
 DOMAIN-SUFFIX,megamarket.tech
 DOMAIN-SUFFIX,sberauto.com
 DOMAIN-SUFFIX,sberbank-insurance.ru
+DOMAIN-SUFFIX,sberbank-tele.com
+DOMAIN-SUFFIX,sberbankaktivno.ru
+DOMAIN-SUFFIX,sberbankins.ru
 DOMAIN-SUFFIX,sbercloud.ru
 DOMAIN-SUFFIX,sbercloud.tech
 DOMAIN-SUFFIX,sberdevices.ru
 DOMAIN-SUFFIX,sberdisk.ru
 DOMAIN-SUFFIX,sberfactoring.ru
-DOMAIN-SUFFIX,sberindex.ru
-DOMAIN-SUFFIX,sberbankaktivno.ru
-DOMAIN-SUFFIX,sberbankins.ru
 DOMAIN-SUFFIX,sberhealth.ru
+DOMAIN-SUFFIX,sberindex.ru
 DOMAIN-SUFFIX,sberleasing.ru
 DOMAIN-SUFFIX,sberlogistics.ru
 DOMAIN-SUFFIX,sbermegamarket.ru
@@ -4099,10 +4102,24 @@ DOMAIN-SUFFIX,zapper.fi
 
 
 # E-commerce
+DOMAIN-SUFFIX,apiauto.ru
+DOMAIN-SUFFIX,auto.ru
+DOMAIN-SUFFIX,autoru.me
+DOMAIN-SUFFIX,avto.ru
+DOMAIN-SUFFIX,cm.expert
+
 DOMAIN-SUFFIX,avito.ru
 DOMAIN-SUFFIX,avito.st
 
 DOMAIN,stats.avito.ru
+
+DOMAIN-SUFFIX,cian.ru
+DOMAIN-SUFFIX,cian.site
+DOMAIN-SUFFIX,ciangroup.ru
+DOMAIN-SUFFIX,dmir.ru
+DOMAIN-SUFFIX,poudobnee.com
+DOMAIN-SUFFIX,xn--80aaafbpzn5blfby1p.xn--p1ai
+DOMAIN-SUFFIX,xn--80aaeib8abrryx4k.xn--p1ai
 
 DOMAIN-SUFFIX,flowwow-images.com
 DOMAIN-SUFFIX,flowwow.com
@@ -4297,6 +4314,10 @@ DOMAIN,marketplace-sentry.wb.ru
 DOMAIN,sentry.wb.ru
 DOMAIN,web-analytics.wildberries.ru
 
+
+# drom
+DOMAIN-SUFFIX,drom.ru
+DOMAIN-SUFFIX,rdrom.ru
 
 
 DOMAIN-SUFFIX,adidas.ae
@@ -6365,6 +6386,7 @@ DOMAIN-SUFFIX,bowlroll.net
 # CDNvideo is a leading CDN provider in Russia and the CIS
 DOMAIN-SUFFIX,cdnvideo.ru
 DOMAIN-SUFFIX,cdnvideohub.com
+DOMAIN-SUFFIX,kinescopecdn.net
 DOMAIN-SUFFIX,trbcdn.net
 
 # Information about films and series
@@ -6389,6 +6411,7 @@ DOMAIN-SUFFIX,24h.tv
 DOMAIN-SUFFIX,amediateka.ru
 DOMAIN-SUFFIX,beeline.tv
 DOMAIN-SUFFIX,ivi.ru
+DOMAIN-SUFFIX,ivicdn.tv
 DOMAIN-SUFFIX,premier.one
 DOMAIN-SUFFIX,smotreshka.tv
 DOMAIN-SUFFIX,start.ru
@@ -7674,6 +7697,9 @@ DOMAIN-SUFFIX,wwr-stardom.com
 
 DOMAIN-SUFFIX,catchplay.com
 DOMAIN-SUFFIX,tra-ww000-cp.akamaized.net
+
+DOMAIN-SUFFIX,chess.com
+DOMAIN-SUFFIX,chesscomfiles.com
 
 DOMAIN-SUFFIX,2025copy.com
 DOMAIN-SUFFIX,copy-manga.com
@@ -19081,6 +19107,7 @@ DOMAIN-SUFFIX,mcafee.com
 DOMAIN-SUFFIX,norton.com
 DOMAIN-SUFFIX,pandasecurity.com
 
+DOMAIN-SUFFIX,ceno.app
 DOMAIN-SUFFIX,censorship.no
 
 DOMAIN-SUFFIX,epicbrowser.com
@@ -19092,6 +19119,7 @@ DOMAIN-SUFFIX,firefoxtweetmachine.com
 DOMAIN-SUFFIX,firefoxusercontent.com
 
 DOMAIN,mozilla-ohttp.fastly-edge.com
+DOMAIN,mozilla.map.fastly.net
 
 DOMAIN-SUFFIX,torproject.org
 
@@ -25360,6 +25388,7 @@ DOMAIN-SUFFIX,bwhstatus.com
 DOMAIN-SUFFIX,beget.com
 DOMAIN-SUFFIX,beget.ru
 
+DOMAIN-SUFFIX,blurams.app
 DOMAIN-SUFFIX,blurams.com
 
 DOMAIN-SUFFIX,broadcom.com
@@ -27431,13 +27460,16 @@ DOMAIN-SUFFIX,algoritmika.org
 DOMAIN-SUFFIX,code-class.ru
 DOMAIN-SUFFIX,gb.ru
 DOMAIN-SUFFIX,lerna.ru
+DOMAIN-SUFFIX,o-uchi.ru
 DOMAIN-SUFFIX,skbx.pro # Probably a CDN
 DOMAIN-SUFFIX,skillbox.pro
 DOMAIN-SUFFIX,skillbox.ru
 DOMAIN-SUFFIX,skillfactory.ru
 DOMAIN-SUFFIX,tetrika-school.ru
 DOMAIN-SUFFIX,uchi.ru
+DOMAIN-SUFFIX,uchilk.ru
 DOMAIN-SUFFIX,umschool.net
+DOMAIN-SUFFIX,xn----otbzjdu.xn--p1ai
 DOMAIN-SUFFIX,yaklass.ru
 
 ## ESforce
@@ -27460,8 +27492,8 @@ DOMAIN-SUFFIX,icq.at
 DOMAIN-SUFFIX,icq.biz
 DOMAIN-SUFFIX,icq.com
 DOMAIN-SUFFIX,icq.de
-DOMAIN-SUFFIX,icq.fr
 DOMAIN-SUFFIX,icq.eu
+DOMAIN-SUFFIX,icq.fr
 DOMAIN-SUFFIX,icq.im
 DOMAIN-SUFFIX,icq.lt
 DOMAIN-SUFFIX,icq.mobi
@@ -29127,6 +29159,7 @@ DOMAIN-SUFFIX,firefoxtweetmachine.com
 DOMAIN-SUFFIX,firefoxusercontent.com
 
 DOMAIN,mozilla-ohttp.fastly-edge.com
+DOMAIN,mozilla.map.fastly.net
 
 DOMAIN-SUFFIX,developer.allizom.org
 DOMAIN-SUFFIX,developer.mozilla.org
@@ -30461,6 +30494,7 @@ DOMAIN-SUFFIX,hayya.ae
 DOMAIN-SUFFIX,meteum.ai
 DOMAIN-SUFFIX,my-manager-account.com
 DOMAIN-SUFFIX,naydex.net
+DOMAIN-SUFFIX,realtyverif.ru
 DOMAIN-SUFFIX,rostaxi.org
 DOMAIN-SUFFIX,shedevrum.ai
 DOMAIN-SUFFIX,sourcecraft.dev

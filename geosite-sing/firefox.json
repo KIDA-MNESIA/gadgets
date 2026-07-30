@@ -3,7 +3,8 @@
   "rules": [
     {
       "domain": [
-        "mozilla-ohttp.fastly-edge.com"
+        "mozilla-ohttp.fastly-edge.com",
+        "mozilla.map.fastly.net"
       ],
       "domain_suffix": [
         "extendfirefox.com",
