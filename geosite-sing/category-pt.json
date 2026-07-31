@@ -3,10 +3,12 @@
   "rules": [
     {
       "domain_suffix": [
+        "52dic.vip",
         "52pt.site",
         "audiences.me",
         "carpt.net",
         "ccfbits.org",
+        "cinefiles.info",
         "dicmusic.com",
         "eastgame.org",
         "et8.org",
@@ -23,6 +25,7 @@
         "hdvideo.one",
         "hhan.club",
         "hhanclub.top",
+        "hhanclub.net",
         "ianon.app",
         "kufei.com",
         "kufei.org",
@@ -125,6 +128,7 @@
         "pt.sjtu.edu.cn",
         "pt.xauat.edu.cn",
         "pterclub.com",
+        "pterclub.net",
         "springsunday.net",
         "totheglory.im"
       ]
