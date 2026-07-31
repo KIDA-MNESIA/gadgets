@@ -2,10 +2,12 @@
   "version": 1,
   "rules": [
     {
+      "domain": [
+        "ykimg.alicdn.com"
+      ],
       "domain_suffix": [
         "9xsecndns.cn",
         "kumiao.com",
-        "mmstat.com",
         "soku.com",
         "tudou.com",
         "ykimg.com",
