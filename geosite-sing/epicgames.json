@@ -3,8 +3,9 @@
   "rules": [
     {
       "domain_suffix": [
-        "3lateral.com",
         "artstation.com",
+        "artstationmedia.com",
+        "3lateral.com",
         "capturingreality.com",
         "cubicmotion.com",
         "battlebreakers.com",

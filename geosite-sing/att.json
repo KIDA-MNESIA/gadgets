@@ -3,6 +3,11 @@
   "rules": [
     {
       "domain_suffix": [
+        "att.tv",
+        "atttvnow.com",
+        "attwatchtv.com",
+        "dtvce.com",
+        "nettyinternet.com",
         "accbusiness.com",
         "atandt.com",
         "att-bundles.com",
@@ -14,7 +19,6 @@
         "att.com",
         "att.jobs",
         "att.net",
-        "att.tv",
         "attalascom.com",
         "attbelieves.com",
         "attbusiness.net",
@@ -36,7 +40,6 @@
         "attssl.com",
         "attstadium.com",
         "attsuppliers.com",
-        "atttvnow.com",
         "attuverseoffers.com",
         "attuverseonline.com",
         "attvoip.com",
@@ -54,7 +57,6 @@
         "itcanwait.com",
         "mymmode.com",
         "naturalvoices.com",
-        "nettyinternet.com",
         "openapiplatform.com",
         "openapiservice.com",
         "patentgold.net",

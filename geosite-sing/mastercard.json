@@ -2,10 +2,6 @@
   "version": 1,
   "rules": [
     {
-      "domain": [
-        "nab.demdex.net",
-        "nationalaustraliaban.tt.omtrdc.net"
-      ],
       "domain_suffix": [
         "mastercard.ae",
         "mastercard.at",

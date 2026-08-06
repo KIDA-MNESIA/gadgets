@@ -118,9 +118,15 @@
         "rx.techomespace.com",
         "public.ns.nwps.fi",
         "kids.ns.nwps.fi",
+        "dns.astracat.ru",
         "frd4wvnobp.cloudflare-gateway.com",
         "dnsguard.pub",
-        "doh.18bit.cn"
+        "doh.18bit.cn",
+        "5u35p8m9i7.cloudflare-gateway.com",
+        "dns.malw.link",
+        "dns.mafioznik.xyz",
+        "dns.geohide.ru",
+        "xbox-dns.ru"
       ],
       "domain_suffix": [
         "opendns.com",
