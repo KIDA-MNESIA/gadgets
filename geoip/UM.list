@@ -1,5 +1,5 @@
 # Surge Rule-Set for UM
-# Generated at 2026-07-12 04:06:29 +0000
+# Generated at 2026-08-12 03:04:22 +0000
 IP-CIDR,46.243.207.34/32
 IP-CIDR,46.243.207.48/32
 IP-CIDR,64.9.239.112/29

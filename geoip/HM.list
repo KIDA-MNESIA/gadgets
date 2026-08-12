@@ -1,5 +1,5 @@
 # Surge Rule-Set for HM
-# Generated at 2026-07-12 04:06:31 +0000
+# Generated at 2026-08-12 03:04:23 +0000
 IP-CIDR,104.28.10.158/31
 IP-CIDR,104.28.10.160/32
 IP-CIDR,140.248.56.95/32

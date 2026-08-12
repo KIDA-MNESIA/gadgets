@@ -1,5 +1,5 @@
 # Surge Rule-Set for FK
-# Generated at 2026-07-12 04:06:29 +0000
+# Generated at 2026-08-12 03:04:22 +0000
 IP-CIDR,45.138.10.28/30
 IP-CIDR,80.73.208.0/21
 IP-CIDR,80.73.216.0/23

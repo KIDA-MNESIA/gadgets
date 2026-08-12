@@ -1,5 +1,5 @@
 # Surge Rule-Set for SR
-# Generated at 2026-07-12 04:06:29 +0000
+# Generated at 2026-08-12 03:04:22 +0000
 IP-CIDR,38.88.56.14/31
 IP-CIDR,45.11.243.0/26
 IP-CIDR,45.68.20.0/23

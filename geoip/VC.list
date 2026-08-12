@@ -1,5 +1,5 @@
 # Surge Rule-Set for VC
-# Generated at 2026-07-12 04:06:29 +0000
+# Generated at 2026-08-12 03:04:22 +0000
 IP-CIDR,23.170.80.0/24
 IP-CIDR,45.42.232.0/22
 IP-CIDR,45.62.191.224/28

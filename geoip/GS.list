@@ -1,5 +1,5 @@
 # Surge Rule-Set for GS
-# Generated at 2026-07-12 04:06:31 +0000
+# Generated at 2026-08-12 03:04:23 +0000
 IP-CIDR,104.28.10.101/32
 IP-CIDR,104.28.10.102/31
 IP-CIDR,128.90.30.0/32

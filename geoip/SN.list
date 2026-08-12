@@ -1,5 +1,5 @@
 # Surge Rule-Set for SN
-# Generated at 2026-07-12 04:06:29 +0000
+# Generated at 2026-08-12 03:04:22 +0000
 IP-CIDR,34.175.234.195/32
 IP-CIDR,41.82.0.0/15
 IP-CIDR,41.208.128.0/18
