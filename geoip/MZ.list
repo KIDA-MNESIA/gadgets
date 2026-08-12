@@ -1,5 +1,5 @@
 # Surge Rule-Set for MZ
-# Generated at 2026-07-12 04:06:28 +0000
+# Generated at 2026-08-12 03:04:21 +0000
 IP-CIDR,5.252.185.0/24
 IP-CIDR,41.76.0.0/21
 IP-CIDR,41.76.144.0/21

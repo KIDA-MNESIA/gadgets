@@ -1,5 +1,5 @@
 # Surge Rule-Set for LS
-# Generated at 2026-07-12 04:06:28 +0000
+# Generated at 2026-08-12 03:04:21 +0000
 IP-CIDR,5.62.60.221/32
 IP-CIDR,5.62.60.222/31
 IP-CIDR,41.76.16.0/21

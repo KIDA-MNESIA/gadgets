@@ -1,5 +1,5 @@
 # Surge Rule-Set for PM
-# Generated at 2026-07-12 04:06:28 +0000
+# Generated at 2026-08-12 03:04:21 +0000
 IP-CIDR,5.252.112.0/22
 IP-CIDR,45.62.191.240/28
 IP-CIDR,70.36.0.0/20

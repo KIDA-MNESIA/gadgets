@@ -1,5 +1,5 @@
 # Surge Rule-Set for CC
-# Generated at 2026-07-12 04:06:28 +0000
+# Generated at 2026-08-12 03:04:21 +0000
 IP-CIDR,5.62.60.93/32
 IP-CIDR,5.62.60.94/31
 IP-CIDR,45.138.10.4/30

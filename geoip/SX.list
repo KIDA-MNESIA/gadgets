@@ -1,5 +1,5 @@
 # Surge Rule-Set for SX
-# Generated at 2026-07-12 04:06:28 +0000
+# Generated at 2026-08-12 03:04:21 +0000
 IP-CIDR,5.175.190.96/30
 IP-CIDR,45.138.10.80/30
 IP-CIDR,65.198.230.0/24

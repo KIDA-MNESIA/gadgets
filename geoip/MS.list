@@ -1,5 +1,5 @@
 # Surge Rule-Set for MS
-# Generated at 2026-07-12 04:06:29 +0000
+# Generated at 2026-08-12 03:04:22 +0000
 IP-CIDR,45.62.191.176/28
 IP-CIDR,45.138.10.32/30
 IP-CIDR,66.96.114.64/26

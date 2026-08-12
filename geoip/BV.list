@@ -1,5 +1,5 @@
 # Surge Rule-Set for BV
-# Generated at 2026-07-12 04:06:28 +0000
+# Generated at 2026-08-12 03:04:21 +0000
 IP-CIDR,5.175.190.112/29
 IP-CIDR,69.30.251.141/32
 IP-CIDR,104.28.8.236/31

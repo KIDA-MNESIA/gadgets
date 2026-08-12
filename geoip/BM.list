@@ -1,5 +1,5 @@
 # Surge Rule-Set for BM
-# Generated at 2026-07-12 04:06:28 +0000
+# Generated at 2026-08-12 03:04:21 +0000
 IP-CIDR,5.175.190.200/29
 IP-CIDR,5.230.57.186/32
 IP-CIDR,31.47.88.0/21
