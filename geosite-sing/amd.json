@@ -2,9 +2,6 @@
   "version": 1,
   "rules": [
     {
-      "domain": [
-        "www.amd.com"
-      ],
       "domain_suffix": [
         "amd.com",
         "amd.com.cn",
