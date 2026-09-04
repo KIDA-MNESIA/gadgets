@@ -8,6 +8,9 @@
         "cn.download.nvidia.com"
       ],
       "domain_suffix": [
+        "hf.co",
+        "hf.space",
+        "huggingface.co",
         "geforce.cn",
         "geforce.co.kr",
         "geforce.co.uk",
