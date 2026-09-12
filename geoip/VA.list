@@ -1,5 +1,5 @@
 # Surge Rule-Set for VA
-# Generated at 2026-08-12 03:04:21 +0000
+# Generated at 2026-09-12 04:52:17 +0000
 IP-CIDR,2.56.112.0/24
 IP-CIDR,45.138.10.172/30
 IP-CIDR,57.79.224.0/20

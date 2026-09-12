@@ -1,5 +1,5 @@
 # Surge Rule-Set for MH
-# Generated at 2026-08-12 03:04:22 +0000
+# Generated at 2026-09-12 04:52:18 +0000
 IP-CIDR,23.181.56.0/24
 IP-CIDR,45.12.71.0/24
 IP-CIDR,45.138.10.100/30

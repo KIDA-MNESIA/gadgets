@@ -1,5 +1,5 @@
 # Surge Rule-Set for GY
-# Generated at 2026-08-12 03:04:22 +0000
+# Generated at 2026-09-12 04:52:18 +0000
 IP-CIDR,45.11.243.192/26
 IP-CIDR,57.74.246.0/23
 IP-CIDR,57.75.112.0/21

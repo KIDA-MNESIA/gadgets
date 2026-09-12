@@ -1,5 +1,5 @@
 # Surge Rule-Set for ST
-# Generated at 2026-08-12 03:04:23 +0000
+# Generated at 2026-09-12 04:52:20 +0000
 IP-CIDR,102.202.92.0/22
 IP-CIDR,102.206.44.0/22
 IP-CIDR,104.28.13.46/31
