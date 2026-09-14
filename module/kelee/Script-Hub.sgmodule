@@ -1,0 +1,24 @@
+#!name=Script-Hub
+#!desc=将其他工具的Rewrite、Rule和JavaScript资源转换为Loon能识别的格式，使用前请在本插件的详情页面为[PROXY]项分配代理策略。在插件列表中点击此插件上的链接查看使用方法。
+#!author=xream[https://github.com/xream], Keywos[https://github.com/Keywos], CKYB[https://github.com/CKYB], 小白脸
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/Other_icon/120px/Script-Hub.png
+#!openUrl=http://127.0.0.1:9100/
+#!tag=资源转换
+#!loon_version=3.4.0(962)
+#!homepage=https://hub.kelee.one
+#!date=2026-06-01 17:11:35
+
+[Rule]
+DOMAIN,scripthub.vercel.app,{kelee_proxy_policy}
+
+[Script]
+前端界面 = type=http-request, pattern=^https?:\/\/script\.hub\/($|edit\/|reload), script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-script-hub-71d45f38fd72e70b.js, timeout=300, 
+
+Rewrite转换 = type=http-request, pattern=^https?:\/\/script\.hub\/file\/_start_\/.+type=(?:qx-rewrite|surge-module|loon-plugin|all-module), script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-Rewrite-Parser-d1171e6520deae64.js, timeout=300
+
+Rule转换 = type=http-request, pattern=^https?:\/\/script\.hub\/file\/_start_\/.+type=rule-set, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-rule-parser-5f575b117bdf0130.js, timeout=300
+
+JavaScript转换 = type=http-request, pattern=^https?:\/\/script\.hub\/convert\/, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-script-converter-884e36ed7bfefa03.js, timeout=300
+
+[MITM]
+hostname = %APPEND% script.hub, *.script.hub

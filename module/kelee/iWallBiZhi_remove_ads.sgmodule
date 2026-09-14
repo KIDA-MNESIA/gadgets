@@ -1,0 +1,24 @@
+#!name=最美壁纸去广告
+#!desc=移除开屏广告、悬浮广告、横幅广告、轮播图广告，精简我的页面。
+#!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
+#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/iWallBiZhi.png
+#!openUrl=https://apps.apple.com/app/id1003706884
+#!tag=去广告
+#!loon_version=3.5.1(984)
+#!homepage=https://hub.kelee.one
+#!date=2026-08-27 20:03:32
+
+[Map Local]
+(?i)^https:\/\/api\.fzxhmy\.com\/seek\/trendingword\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+(?i)^https:\/\/api\.fzxhmy\.com\/tone\/trending\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+[Script]
+"移除首页广告配置" = type=http-response, pattern=(?i)^https:\/\/api\.fzxhmy\.com\/core\/initialize\?, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-core_initialize-5ffbbbd1d719e1d1.js, requires-body=true
+
+"移除首页轮播图广告" = type=http-response, pattern=(?i)^https:\/\/api\.fzxhmy\.com\/landing\/initialize\?, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-landing_initialize-0aa34c5fc1ee3d86.js, requires-body=true
+
+"移除头像页横幅跳转" = type=http-response, pattern=(?i)^https:\/\/api\.fzxhmy\.com\/avatar\/landing\?, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-landing-d0482cab4b27d6d6.js, requires-body=true
+
+[MITM]
+hostname = %APPEND% api.fzxhmy.com
