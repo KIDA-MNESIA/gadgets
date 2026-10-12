@@ -7,6 +7,7 @@
 264,dns.cn
 292,weibo.com
 320,cdngslb.com
+351,mi.com
 360,nease.net
 377,sohu.com
 396,taobao.com
@@ -23,16 +24,20 @@
 604,aliyun.com
 711,youku.com
 712,xiaomi.net
+806,miwifi.com
 816,360.cn
 857,ys7.com
+932,theconversation.com
 1014,tbcache.com
 1033,360safe.com
+1058,gofundme.com
 1075,alidns.com
 1081,166.com
 1169,alipaydns.com
 1283,mgslb.com
 1312,bilibili.tv
 1335,baishan-cloud.net
+1389,xinhuanet.com
 1440,jd.com
 1671,kunluncan.com
 1800,vivo.com.cn
@@ -52,6 +57,7 @@
 2313,izatcloud.net
 2320,gtm-a2b2.com
 2325,leiniao.com
+2449,jav.guru
 2463,qianxun.com
 2486,1688.com
 2491,chinadaily.com.cn
@@ -121,7 +127,6 @@
 4880,ximalaya.com
 5063,xxpkg.com
 5074,cgtn.com
-5085,crypto.com
 5139,126.net
 5148,bsclink.cn
 5154,hexun.com
@@ -129,6 +134,7 @@
 5254,cnblogs.com
 5271,tongdun.net
 5384,cnki.net
+5391,aptoide.com
 5504,cvte.com
 5539,ctrip.com
 5560,kunlunso.com
@@ -146,6 +152,7 @@
 5985,alibaba-inc.com
 5991,kugou.com
 6057,huya.com
+6064,cntv.cn
 6389,people.cn
 6516,huaweicloud.com
 6523,bsgslb.com
@@ -170,6 +177,7 @@
 7126,lzptt.gx.cn
 7147,cri.cn
 7167,exhera.com
+7200,storify.com
 7298,azure.cn
 7499,mihoyo.com
 7726,feishu.cn
@@ -214,6 +222,7 @@
 10403,alipayobjects.com
 10554,pconline.com.cn
 10577,anticheatexpert.com
+10610,intlgame.com
 10686,alibabachengdun.com
 10696,startcomca.net
 10712,cibntv.net
@@ -314,10 +323,12 @@
 14485,goodwe-power.com
 14626,coolccloud.com
 14639,maff.com
+14642,zblogcn.com
 14806,whu.edu.cn
 14825,126.com
 14839,peiluyou.com
 14856,12371.cn
+14969,trustwallet.com
 14971,kunlunle.com
 15033,mydrivers.com
 15065,alivecdn.com
@@ -348,7 +359,6 @@
 16212,smzdm.com
 16215,jiguang.cn
 16216,baishancdnx.net
-16282,indiatvnews.com
 16441,im30app.com
 16455,online.sh.cn
 16524,bjx.com.cn
@@ -385,6 +395,7 @@
 18338,yinxiang.com
 18369,zoosnet.net
 18403,hiido.com
+18445,bambulab.com
 18521,huawei.com.cn
 18681,vip.com
 18818,10010.com
@@ -442,8 +453,8 @@
 22331,zui.com
 22360,kunlunpi.com
 22450,cloudcsp.com
-22528,sse.com.cn
 22647,evtrust.com
+22716,ulikecam.com
 22720,tange365.com
 22801,qy.net
 22832,kuaishou.cn
@@ -471,7 +482,6 @@
 23772,72dns.com
 23825,zhhainiao.com
 23828,3dmgame.com
-23842,shoplazza.com
 23849,broadlink.com.cn
 23919,caixin.com
 23936,httpdns.pro
@@ -533,7 +543,6 @@
 26113,duxiaoman.com
 26131,kunlungem.com
 26132,neea.edu.cn
-26138,biliintl.com
 26143,cnipa.gov.cn
 26201,atianqi.com
 26205,nsfc.gov.cn
@@ -684,7 +693,6 @@
 33589,quickconnect.cn
 33592,mbalib.com
 33727,capitalonline.net
-33732,xaonline.com
 33741,scut.edu.cn
 33788,qiku.com
 33791,hoopchina.com.cn
@@ -758,7 +766,6 @@
 37637,mercedes-benz.com.cn
 37697,szgla.com
 37732,cnki.com.cn
-37771,gwadar.cn
 37780,jschina.com.cn
 37967,pinkfong.cn
 38001,oeeee.com
@@ -828,7 +835,6 @@
 41176,wo.com.cn
 41177,ryjer.com
 41179,qiyukf.com
-41182,airasia.cn
 41463,xhby.net
 41535,pchome.net
 41610,hexin.cn
@@ -931,7 +937,6 @@
 47140,miyoushe.com
 47149,szhxws.com
 47219,lscreenc.com
-47293,kake.com
 47383,jnu.edu.cn
 47417,mobileanjian.com
 47430,japps.cn
@@ -1040,6 +1045,7 @@
 53120,worldoftanks.cn
 53132,oasgames.com
 53331,wandoujia.com
+53480,10minutemail.net
 53586,datacaciques.com
 53624,nobblun.net
 53716,nowcoder.com
@@ -1253,6 +1259,7 @@
 69216,ch.com
 69263,tool.lu
 69370,kuso.xyz
+69481,watchersweb.com
 69483,cssmoban.com
 69519,52tt.com
 69596,damai.cn
@@ -1370,6 +1377,7 @@
 80458,93kq.com
 80620,bclearning.top
 80675,ncac.gov.cn
+80728,chinaunix.net
 80843,5173.com
 80920,iteye.com
 81183,rtbasia.com
@@ -1423,7 +1431,6 @@
 86137,lnd.com.cn
 86152,kongfz.com
 86184,xm.gov.cn
-86946,hentailegendado.com
 87664,voiceads.cn
 87680,joinf.com
 87682,bjut.edu.cn
@@ -1556,6 +1563,7 @@
 98635,40017.cn
 98658,xiaoe-tech.com
 98676,bsimb.cn
+98770,erocurves.com
 98787,03k.org
 98801,leadscloud.com
 98856,youlishipin.com
