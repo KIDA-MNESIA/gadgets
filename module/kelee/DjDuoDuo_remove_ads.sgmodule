@@ -1,15 +1,17 @@
 #!name=DJ多多去广告
 #!desc=移除开屏广告及歌单广告
 #!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/DjDuoDuo.png
+#!icon=icon not found
+#!category=Kelee
 #!openUrl=https://apps.apple.com/app/id1039764887
-#!tag=去广告
-#!loon_version=3.4.0(962)
+#!category=去广告
+#!loon_version=3.5.1(998)
 #!homepage=https://hub.kelee.one
-#!date=2026-08-22 12:51:37
+#!date=2026-10-02 13:57:49
 
 [Script]
-去广告 = type=http-response, pattern=^https:\/\/api\.dianyinduoduo\.com\/v4\/config\.php\?, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-DjDuoDuo_remove_ads-35a3b12ec3a7d681.js, requires-body=true
+去广告 = type=http-response, pattern=(?i)^https:\/\/api\.dianyinduoduo\.com\/v4\/config\.php\?, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_DjDuoDuo_remove_ads-6357b9dd30b48b64.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% api.dianyinduoduo.com
+

@@ -1,12 +1,13 @@
 #!name=Hong Kong Toolbar去广告
 #!desc=移除开屏互动广告、直播前贴片广告及视频广告
 #!author=C.Hiang
-#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/HongKongToolbar.png
+#!icon=icon not found
+#!category=Kelee
 #!openUrl=https://apps.apple.com/app/id735754930
-#!tag=去广告
-#!loon_version=3.4.0(962)
+#!category=去广告
+#!loon_version=3.5.1(998)
 #!homepage=https://hub.kelee.one
-#!date=2026-06-24 16:45:00
+#!date=2026-10-02 13:57:49
 
 [Rule]
 URL-REGEX,"^https:\/\/a\.881903\.com\/live\/preroll\/.*\/.*",REJECT-DROP
@@ -14,3 +15,4 @@ URL-REGEX,"^https:\/\/a\.881903\.com\/v\d\/app\/game\/.*",REJECT-DROP
 
 [MITM]
 hostname = %APPEND% a.881903.com
+
