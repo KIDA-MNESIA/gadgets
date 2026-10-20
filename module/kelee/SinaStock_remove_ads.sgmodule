@@ -1,12 +1,13 @@
 #!name=新浪财经去广告
 #!desc=移除开屏广告、弹窗广告、横幅广告、信息流广告，精简我的页面。
 #!author=可莉🅥[https://github.com/luestr/ProxyResource/blob/main/README.md]
-#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/SinaStock.png
+#!icon=icon not found
+#!category=Kelee
 #!openUrl=https://apps.apple.com/app/id430165157
-#!tag=去广告
-#!loon_version=3.5.1(980)
+#!category=去广告
+#!loon_version=3.5.1(998)
 #!homepage=https://hub.kelee.one
-#!date=2026-08-26 14:19:33
+#!date=2026-10-02 13:57:49
 
 [Body Rewrite]
 http-response-jq (?i)^https:\/\/news\.cj\.sina\.cn\/app\/v1\/news724\/list\? 'delpaths([["result","data","ad"]])'
@@ -20,12 +21,14 @@ http-response-jq (?i)^https:\/\/app\.cj\.sina\.com\.cn\/clientSetting\/api\/star
 http-response-jq (?i)^https:\/\/app\.cj\.sina\.com\.cn\/clientSetting\/api\/start\/init\? 'delpaths([["result","data","us_trade"]])'
 http-response-jq (?i)^https:\/\/app\.cj\.sina\.com\.cn\/clientSetting\/api\/start\/init\? 'delpaths([["result","data","open_account"]])'
 http-response-jq (?i)^https:\/\/app\.cj\.sina\.com\.cn\/clientSetting\/api\/start\/init\? 'delpaths([["result","data","us_hq_trade"]])'
-http-response-jq (?i)^https:\/\/(newscj\.xincai\.com|news\.cj\.sina\.cn)\/app\/v1\/feed\? '.data.feed.data |= map(select((.author// "") != ""))'
+http-response-jq (?i)^https:\/\/(newscj\.xincai\.com|news\.cj\.sina\.cn)\/app\/v1\/feed\? '.data.feed.data |= map(select((.author // "") != ""))'
 
 [Map Local]
 (?i)^https:\/\/news\.cj\.sina\.cn\/search\/tips\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 (?i)^https:\/\/search\.cj\.sina\.cn\/stock\/get_index_new\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
+
+(?i)^https:\/\/news\.cj\.sina\.cn\/search\/tips\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 (?i)^https:\/\/recommend\.cj\.sina\.cn\/app\/v2\/search\/discovery$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
@@ -33,3 +36,4 @@ http-response-jq (?i)^https:\/\/(newscj\.xincai\.com|news\.cj\.sina\.cn)\/app\/v
 
 [MITM]
 hostname = %APPEND% app.cj.sina.com.cn, news.cj.sina.cn, search.cj.sina.cn, recommend.cj.sina.cn, quotes.sina.com.cn, newscj.xincai.com
+

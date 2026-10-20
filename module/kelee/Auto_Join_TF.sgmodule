@@ -1,20 +1,20 @@
 #!name=自动加入TestFlight
 #!desc=自动监控TestFlight名额，一旦有新的名额即刻加入。
 #!author=奶思[https://github.com/fmz200], DecoAri[https://github.com/DecoAri], xream[https://github.com/xream]
-#!icon=https://raw.githubusercontent.com/luestr/IconResource/main/App_icon/120px/TestFlight.png
+#!icon=icon not found
+#!category=Kelee
 #!openUrl=https://apps.apple.com/app/id899247664
-#!tag=定时任务
-#!loon_version=3.4.0(962)
+#!category=定时任务
+#!loon_version=3.5.1(998)
 #!homepage=https://hub.kelee.one
-#!date=2026-06-01 17:11:35
-#!arguments=CaptureAccountToken:false,RunTask:"false",RunMonitor:"true",TaskCron:"0 0/2 * * * ?",TaskMonitor:"0 * * * * ?"
-
-[Rule]
-DOMAIN,testflight.apple.com,{kelee_proxy_policy}
+#!date=2026-10-02 13:57:49
+#!arguments=CaptureAccountToken:#,RunTask:#,RunMonitor:#,TaskCron:"0 0/2 * * * ?",TaskMonitor:"0 * * * * ?"
+#!arguments-desc=CaptureAccountToken: 捕获账号令牌\n此开关控制插件是否捕获账户令牌\n可选值: 留空启用, # 禁用\n\nRunTask: 自动加入TF\n此开关控制是否启动定时任务\n可选值: 留空启用, # 禁用\n\nRunMonitor: 监控TF位置\n此开关控制是否启动定时任务\n可选值: 留空启用, # 禁用\n\nTaskCron: 加入TF定时参数\n这里需要输入符合CRON表达式的参数\n\nTaskMonitor: 监控TF定时参数\n这里需要输入符合CRON表达式的参数
 
 [Script]
-获取账号令牌 = type=http-request, pattern=^https?:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/apps$, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-CaptureAccountToken-cd9b7c24339f2673.js
+{{{CaptureAccountToken}}}获取账号令牌 = type=http-request, pattern=(?i)^https?:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/apps$, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_CaptureAccountToken-91d510d7d283b3e5.js
 
-自动加入TF = type=cron, cronexp={{{TaskCron}}}, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-AutoJoinTF-9eda6ac7e368cfd9.js, timeout=600
+{{{RunTask}}}自动加入TF = type=cron, cronexp="{{{TaskCron}}}", script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_AutoJoinTF-27dfc19b260b0333.js, timeout=600
 
-监控TF位置 = type=cron, cronexp={{{TaskMonitor}}}, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-AutoMonitorTF-f97aa9b42b0e3554.js, timeout=30
+{{{RunMonitor}}}监控TF位置 = type=cron, cronexp="{{{TaskMonitor}}}", script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_AutoMonitorTF-709cec812e71a2f8.js, timeout=30
+
