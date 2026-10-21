@@ -2,6 +2,7 @@
 # https://support.mozilla.org/fr/questions/1352614
 
 DOMAIN-SUFFIX,extendfirefox.com
+DOMAIN-SUFFIX,firefox-portal-detection.com
 DOMAIN-SUFFIX,firefox.com
 DOMAIN-SUFFIX,firefox.hu
 DOMAIN-SUFFIX,firefoxtweetmachine.com
@@ -82,5 +83,7 @@ DOMAIN-SUFFIX,webmademovies.org
 # Ads/tracking
 DOMAIN,ads-img.mozilla.org
 DOMAIN,ads.mozilla.org
+
+# Telemetry
 DOMAIN,incoming.telemetry.mozilla.org
 DOMAIN,incoming-telemetry.thunderbird.net

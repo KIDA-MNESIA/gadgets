@@ -3,11 +3,11 @@
   "rules": [
     {
       "domain": [
+        "visor.sberbank.ru",
         "error-tracking.megamarket.tech",
         "metrics.21-school.ru",
         "sentry.sberauto.com",
         "tracing-http.megamarket.tech",
-        "visor.sberbank.ru",
         "sberpro.vedomosti.ru"
       ],
       "domain_suffix": [
@@ -35,6 +35,15 @@
         "sberbank.com",
         "sberbank.ru",
         "sbrf.ru",
+        "yookassa.ru",
+        "yoomoney.ru",
+        "cplsb.ru",
+        "sberspasibo.ru",
+        "spasibo.digital",
+        "spasibo.market",
+        "spasibobonus.ru",
+        "spasibosb.ru",
+        "spasibosberbank.ru",
         "ads.sber.ru",
         "clickstream.sberbank.ru",
         "neon.click",
@@ -91,13 +100,6 @@
         "platiecom.ru",
         "otello.ru",
         "sber.pro",
-        "cplsb.ru",
-        "sberspasibo.ru",
-        "spasibo.digital",
-        "spasibo.market",
-        "spasibobonus.ru",
-        "spasibosb.ru",
-        "spasibosberbank.ru",
         "accesspoint.uz",
         "getsynapse.io",
         "sbertech.ru",
