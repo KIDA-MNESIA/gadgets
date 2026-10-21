@@ -27,6 +27,11 @@ DOMAIN-SUFFIX,kinorium.com
 # Streaming services for watching TV series and movies
 DOMAIN-SUFFIX,kinopoisk.ru
 DOMAIN-SUFFIX,kinopoisk-ru.clstorage.net
+DOMAIN-SUFFIX,kp.yandex.net
+
+# Smart TV app
+DOMAIN,kp-config-smart-tv.akamaized.net
+DOMAIN,kp-configs-smart-tv.s3.eu-central-1.amazonaws.com
 
 DOMAIN-SUFFIX,okkoapi.tv
 DOMAIN-SUFFIX,playfamily.ru
@@ -549,6 +554,9 @@ DOMAIN-SUFFIX,nexon.net
 DOMAIN-SUFFIX,nexoncdn.co.kr
 DOMAIN-SUFFIX,nexongames.co.kr
 
+DOMAIN-SUFFIX,nexus-cdn.com
+DOMAIN-SUFFIX,nexusmods.com
+
 DOMAIN-SUFFIX,nikke-de.com
 DOMAIN-SUFFIX,nikke-en.com
 DOMAIN-SUFFIX,nikke-fr.com
@@ -725,6 +733,7 @@ DOMAIN-SUFFIX,playstation
 
 DOMAIN-SUFFIX,playstation.com
 DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,playstationnetwork.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 
 DOMAIN-SUFFIX,sekai.colorfulpalette.org
@@ -858,6 +867,9 @@ DOMAIN-SUFFIX,robloxlabs.com
 DOMAIN-SUFFIX,rowblocks.com
 DOMAIN-SUFFIX,rowblox.com
 DOMAIN,d1unuk07s6td74.cloudfront.net
+DOMAIN,d348twzf7a8p5.cloudfront.net
+DOMAIN,devforum-uploads.s3.dualstack.us-east-2.amazonaws.com
+DOMAIN,doy2mn9upadnk.cloudfront.net
 DOMAIN,roblox-load-generator-configuration.s3.us-east-2.amazonaws.com
 DOMAIN,roblox-poc.global.ssl.fastly.net
 DOMAIN,robloxcorp.s.llnwi.net
@@ -1078,11 +1090,6 @@ DOMAIN-SUFFIX,wbgames.com
 DOMAIN-SUFFIX,wbinsights.com
 
 #include:activision-blizzard
-DOMAIN-SUFFIX,asobostudio.com
-DOMAIN-SUFFIX,flightsimulator.com
-
-DOMAIN,flightsimulator.azureedge.net
-
 DOMAIN-SUFFIX,beth.games
 DOMAIN-SUFFIX,bethesda.net
 DOMAIN-SUFFIX,bethesdagamestudios.com
@@ -1170,8 +1177,6 @@ DOMAIN-SUFFIX,mobimon.com.tw
 DOMAIN-SUFFIX,muvluv-girls-garden.com
 DOMAIN-SUFFIX,namemc.com
 DOMAIN-SUFFIX,neoforged.net
-DOMAIN-SUFFIX,nexus-cdn.com
-DOMAIN-SUFFIX,nexusmods.com
 DOMAIN-SUFFIX,noxygames.com
 DOMAIN-SUFFIX,offworldindustries.com
 DOMAIN-SUFFIX,offworldindustries.net
@@ -2111,6 +2116,7 @@ DOMAIN-SUFFIX,primevideo.info
 DOMAIN-SUFFIX,primevideo.org
 DOMAIN-SUFFIX,primevideo.tv
 DOMAIN-SUFFIX,prod.service.minerva.devices.a2z.com
+DOMAIN-SUFFIX,pv-cdn.net
 
 # radiko official access and streaming domains
 
@@ -2243,6 +2249,7 @@ DOMAIN-SUFFIX,tiktokcdn.com.edgesuite.net
 DOMAIN-SUFFIX,tiktokv.com.edgekey.net
 DOMAIN-SUFFIX,tiktokv.com.edgesuite.net
 DOMAIN,p16-tiktokcdn-com.akamaized.net
+DOMAIN,p16-tiktok-dm-sticker-sign-sg.ibyteimg.com
 DOMAIN,roovza-launches.appsflyersdk.com
 DOMAIN,roovza.inapps.appsflyersdk.com
 DOMAIN,roovza.launches.appsflyersdk.com
@@ -2292,6 +2299,7 @@ DOMAIN,d2xmjdvx03ij56.cloudfront.net
 DOMAIN,d36nr0u3xmc4mm.cloudfront.net
 DOMAIN,d3aqoihi2n8ty8.cloudfront.net
 DOMAIN,d3c27h4odz752x.cloudfront.net
+DOMAIN,d3stzm2eumvgb4.cloudfront.net
 DOMAIN,d3vd9lfkzbru3h.cloudfront.net
 DOMAIN,d6d4ismr40iw.cloudfront.net
 DOMAIN,d6tizftlrpuof.cloudfront.net

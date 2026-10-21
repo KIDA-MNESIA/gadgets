@@ -233,15 +233,19 @@ DOMAIN-SUFFIX,getfedora.org
 
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,firebase.com
+DOMAIN-SUFFIX,firebase.dev
 DOMAIN-SUFFIX,firebase.io
 DOMAIN-SUFFIX,firebaseapp.com
 DOMAIN-SUFFIX,firebaseio.com
 
+DOMAIN-SUFFIX,firebase.google.com
+
 DOMAIN,crashlyticsreports-pa.googleapis.com
 DOMAIN,firebase-settings.crashlytics.com
-DOMAIN,firebase.google.com
 DOMAIN,firebase.googleapis.com
 DOMAIN,firebaseappcheck.googleapis.com
+DOMAIN,firebaseappdistribution.googleapis.com
+DOMAIN,firebaseapptesters.googleapis.com
 DOMAIN,firebasedynamiclinks-ipv4.googleapis.com
 DOMAIN,firebasedynamiclinks-ipv6.googleapis.com
 DOMAIN,firebasedynamiclinks.googleapis.com
@@ -269,6 +273,12 @@ DOMAIN-SUFFIX,framercanvas.com
 DOMAIN-SUFFIX,framerstatic.com
 DOMAIN-SUFFIX,framerusercontent.com
 
+# Freebuff - https://freebuff.com/
+# Source: https://github.com/CodebuffAI/freebuff
+
+DOMAIN-SUFFIX,codebuff.com
+DOMAIN-SUFFIX,freebuff.com
+
 DOMAIN-SUFFIX,fury.blog
 DOMAIN-SUFFIX,fury.co
 DOMAIN-SUFFIX,fury.dev
@@ -287,7 +297,7 @@ DOMAIN,copilot-workspace.githubnext.com
 # Azure Blob Storage
 DOMAIN,copilotprodattachments.blob.core.windows.net
 
-# Ads/tracking
+# Telemetry
 DOMAIN,copilot-telemetry-service.githubusercontent.com
 DOMAIN,copilot-telemetry.githubusercontent.com
 
@@ -356,7 +366,8 @@ DOMAIN,productionresultssa17.blob.core.windows.net
 DOMAIN,productionresultssa18.blob.core.windows.net
 DOMAIN,productionresultssa19.blob.core.windows.net
 
-# Ads/tracking
+# Telemetry
+DOMAIN-SUFFIX,cafe.github.com
 DOMAIN-SUFFIX,collector.github.com
 
 DOMAIN-SUFFIX,github1s.com
@@ -798,6 +809,7 @@ DOMAIN-SUFFIX,php.net
 DOMAIN-SUFFIX,piwheels.org
 DOMAIN-SUFFIX,plasma-mobile.org
 DOMAIN-SUFFIX,postgresql.org
+DOMAIN-SUFFIX,postman.com
 DOMAIN-SUFFIX,putty.org
 DOMAIN-SUFFIX,r-project.org
 DOMAIN-SUFFIX,raspberrypi.org

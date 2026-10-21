@@ -430,15 +430,19 @@ DOMAIN-SUFFIX,fastlane.tools
 
 DOMAIN-SUFFIX,crashlytics.com
 DOMAIN-SUFFIX,firebase.com
+DOMAIN-SUFFIX,firebase.dev
 DOMAIN-SUFFIX,firebase.io
 DOMAIN-SUFFIX,firebaseapp.com
 DOMAIN-SUFFIX,firebaseio.com
 
+DOMAIN-SUFFIX,firebase.google.com
+
 DOMAIN,crashlyticsreports-pa.googleapis.com
 DOMAIN,firebase-settings.crashlytics.com
-DOMAIN,firebase.google.com
 DOMAIN,firebase.googleapis.com
 DOMAIN,firebaseappcheck.googleapis.com
+DOMAIN,firebaseappdistribution.googleapis.com
+DOMAIN,firebaseapptesters.googleapis.com
 DOMAIN,firebasedynamiclinks-ipv4.googleapis.com
 DOMAIN,firebasedynamiclinks-ipv6.googleapis.com
 DOMAIN,firebasedynamiclinks.googleapis.com
@@ -487,6 +491,8 @@ DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,gemini.google
 DOMAIN-SUFFIX,gemini.google.com
 DOMAIN-SUFFIX,gemini.gstatic.com
+DOMAIN,geminiweb-pa.clients.google.com
+DOMAIN,geminiweb-pa.clients6.google.com
 
 # Gemini Code Assist
 # https://docs.cloud.google.com/gemini/docs/codeassist/set-up-gemini
@@ -497,6 +503,8 @@ DOMAIN,daily-cloudcode-pa.googleapis.com
 # NotebookLM
 DOMAIN,notebooklm-pa.googleapis.com
 DOMAIN,notebooklm.googleapis.com
+DOMAIN-SUFFIX,labstailwind.pa.googleapis.com
+DOMAIN-SUFFIX,notebook.google
 DOMAIN-SUFFIX,notebook.google.com
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com
@@ -509,6 +517,7 @@ DOMAIN-SUFFIX,jules.google.com
 DOMAIN-SUFFIX,labs.google
 DOMAIN-SUFFIX,labs.google.com
 DOMAIN-SUFFIX,flow.google
+DOMAIN-SUFFIX,flow.google.com
 DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
 
 # Android Studio Gemini Code Assist
@@ -1729,6 +1738,7 @@ DOMAIN-SUFFIX,primevideo.info
 DOMAIN-SUFFIX,primevideo.org
 DOMAIN-SUFFIX,primevideo.tv
 DOMAIN-SUFFIX,prod.service.minerva.devices.a2z.com
+DOMAIN-SUFFIX,pv-cdn.net
 
 DOMAIN-SUFFIX,wfm.com
 DOMAIN-SUFFIX,wholecitiesfoundation.org
@@ -1878,6 +1888,8 @@ DOMAIN-SUFFIX,amd.com.cn
 DOMAIN-SUFFIX,amdfanstore.com
 DOMAIN-SUFFIX,amdgaming.com
 DOMAIN-SUFFIX,radeon.com
+
+DOMAIN,drivers.amd.com
 
 DOMAIN-SUFFIX,bestsrv.de
 DOMAIN-SUFFIX,customercontrolpanel.de
@@ -4606,8 +4618,19 @@ DOMAIN-SUFFIX,bwh88.net
 DOMAIN-SUFFIX,bwh89.net
 DOMAIN-SUFFIX,bwhstatus.com
 
+DOMAIN-SUFFIX,beget.app
+DOMAIN-SUFFIX,beget.cloud
 DOMAIN-SUFFIX,beget.com
+DOMAIN-SUFFIX,beget.de
+DOMAIN-SUFFIX,beget.hosting
+DOMAIN-SUFFIX,beget.pro
 DOMAIN-SUFFIX,beget.ru
+DOMAIN-SUFFIX,beget.tech
+DOMAIN-SUFFIX,begetcdn.cloud
+DOMAIN-SUFFIX,beserver.ru
+DOMAIN-SUFFIX,bget.ru
+DOMAIN-SUFFIX,sprut.io
+DOMAIN-SUFFIX,xn--90aefb9d.xn--p1ai
 
 DOMAIN-SUFFIX,blurams.app
 DOMAIN-SUFFIX,blurams.com
@@ -6895,10 +6918,9 @@ DOMAIN-SUFFIX,facebook.ca
 DOMAIN-SUFFIX,facebook.cc
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,facebook.design
-DOMAIN-SUFFIX,facebook.net
 DOMAIN-SUFFIX,facebook.hu
 DOMAIN-SUFFIX,facebook.in
-DOMAIN-SUFFIX,fecebook.net
+DOMAIN-SUFFIX,facebook.net
 DOMAIN-SUFFIX,facebook.nl
 DOMAIN-SUFFIX,facebook.org
 DOMAIN-SUFFIX,facebook.se
@@ -7105,6 +7127,7 @@ DOMAIN-SUFFIX,fecbbok.com
 DOMAIN-SUFFIX,fecbooc.com
 DOMAIN-SUFFIX,fecbook.com
 DOMAIN-SUFFIX,feceboock.com
+DOMAIN-SUFFIX,fecebook.net
 DOMAIN-SUFFIX,feceboox.com
 DOMAIN-SUFFIX,fececbook.com
 DOMAIN-SUFFIX,feook.com
@@ -7174,6 +7197,7 @@ DOMAIN-SUFFIX,sportsfacebook.com
 DOMAIN-SUFFIX,sportstream.com
 DOMAIN-SUFFIX,supportfacebook.com
 DOMAIN-SUFFIX,terragraph.com
+DOMAIN-SUFFIX,tfbnw.net
 DOMAIN-SUFFIX,thefacebook.com
 DOMAIN-SUFFIX,thefacebook.net
 DOMAIN-SUFFIX,thefind.com
@@ -7363,14 +7387,16 @@ DOMAIN-SUFFIX,whatsapp.tv
 DOMAIN-SUFFIX,whatsappbrand.com
 
 # Ads/tracking
-DOMAIN-SUFFIX,graph.whatsapp.com
-DOMAIN-SUFFIX,graph.whatsapp.net
+# graph.whatsapp.com and graph.whatsapp.net aren't solely for ads,
+# see https://github.com/v2fly/domain-list-community/issues/4127
 
 
 DOMAIN-SUFFIX,atmeta.com
 DOMAIN-SUFFIX,llama.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,meta.com
+DOMAIN-SUFFIX,metaaivm.com
+DOMAIN-SUFFIX,muse.ai
 
 # All .azure domains
 DOMAIN-SUFFIX,azure
@@ -7590,7 +7616,7 @@ DOMAIN,copilot-workspace.githubnext.com
 # Azure Blob Storage
 DOMAIN,copilotprodattachments.blob.core.windows.net
 
-# Ads/tracking
+# Telemetry
 DOMAIN,copilot-telemetry-service.githubusercontent.com
 DOMAIN,copilot-telemetry.githubusercontent.com
 
@@ -7659,7 +7685,8 @@ DOMAIN,productionresultssa17.blob.core.windows.net
 DOMAIN,productionresultssa18.blob.core.windows.net
 DOMAIN,productionresultssa19.blob.core.windows.net
 
-# Ads/tracking
+# Telemetry
+DOMAIN-SUFFIX,cafe.github.com
 DOMAIN-SUFFIX,collector.github.com
 
 DOMAIN-SUFFIX,adaptivecards.io
@@ -7784,11 +7811,6 @@ DOMAIN-SUFFIX,onedrive.live.com
 DOMAIN-SUFFIX,storage.live.com
 
 #include:activision-blizzard
-DOMAIN-SUFFIX,asobostudio.com
-DOMAIN-SUFFIX,flightsimulator.com
-
-DOMAIN,flightsimulator.azureedge.net
-
 DOMAIN-SUFFIX,beth.games
 DOMAIN-SUFFIX,bethesda.net
 DOMAIN-SUFFIX,bethesdagamestudios.com
@@ -8342,6 +8364,7 @@ DOMAIN-SUFFIX,motorolasolutions.com
 # https://support.mozilla.org/fr/questions/1352614
 
 DOMAIN-SUFFIX,extendfirefox.com
+DOMAIN-SUFFIX,firefox-portal-detection.com
 DOMAIN-SUFFIX,firefox.com
 DOMAIN-SUFFIX,firefox.hu
 DOMAIN-SUFFIX,firefoxtweetmachine.com
@@ -8422,6 +8445,8 @@ DOMAIN-SUFFIX,webmademovies.org
 # Ads/tracking
 DOMAIN,ads-img.mozilla.org
 DOMAIN,ads.mozilla.org
+
+# Telemetry
 DOMAIN,incoming.telemetry.mozilla.org
 DOMAIN,incoming-telemetry.thunderbird.net
 
@@ -8450,6 +8475,9 @@ DOMAIN-SUFFIX,kion.ru
 ## ON Media (MTS Media)
 DOMAIN-SUFFIX,mtsmedia.ru
 DOMAIN-SUFFIX,on-media.ru
+
+# MTS-link, a video-conference application
+DOMAIN-SUFFIX,mts-link.ru
 
 DOMAIN-SUFFIX,musixmatch.com
 DOMAIN-SUFFIX,mxmcdn.net
@@ -8959,6 +8987,7 @@ DOMAIN-SUFFIX,playstation
 
 DOMAIN-SUFFIX,playstation.com
 DOMAIN-SUFFIX,playstation.net
+DOMAIN-SUFFIX,playstationnetwork.com
 DOMAIN-SUFFIX,sonyentertainmentnetwork.com
 
 DOMAIN-SUFFIX,imageworks.com
@@ -8981,15 +9010,17 @@ DOMAIN-SUFFIX,yourfantasybeginsnow.com
 DOMAIN-SUFFIX,sony
 
 # Sony Network Communications Inc.
-DOMAIN-SUFFIX,sonynetwork.co.jp
 DOMAIN-SUFFIX,nuro.jp
 DOMAIN-SUFFIX,so-net.ne.jp
+DOMAIN-SUFFIX,sonynetwork.co.jp
 
 # Sony Semiconductor Solutions Corporation
 DOMAIN-SUFFIX,sony-semicon.co.jp
 DOMAIN-SUFFIX,sony-semicon.com
 
 DOMAIN-SUFFIX,ginzasonypark.jp
+DOMAIN-SUFFIX,scea.com
+DOMAIN-SUFFIX,so-net.net.tw
 DOMAIN-SUFFIX,sony-africa.com
 DOMAIN-SUFFIX,sony-asia.com
 DOMAIN-SUFFIX,sony-europe.com
@@ -9032,6 +9063,7 @@ DOMAIN-SUFFIX,sony.com.ni
 DOMAIN-SUFFIX,sony.com.pa
 DOMAIN-SUFFIX,sony.com.pe
 DOMAIN-SUFFIX,sony.com.ph
+DOMAIN-SUFFIX,sony.com.py
 DOMAIN-SUFFIX,sony.com.sg
 DOMAIN-SUFFIX,sony.com.sv
 DOMAIN-SUFFIX,sony.com.tr
@@ -9072,14 +9104,15 @@ DOMAIN-SUFFIX,sonybuilding.jp
 DOMAIN-SUFFIX,sonydesign.com
 DOMAIN-SUFFIX,sonydna.com # Sony Digital Network Applications Inc.
 DOMAIN-SUFFIX,sonyglobalsolutions.jp
+DOMAIN-SUFFIX,sonyinteractive.com
 DOMAIN-SUFFIX,sonykigyo.jp
 DOMAIN-SUFFIX,sonylatvija.com
+DOMAIN-SUFFIX,sonymusic.com.hk
 DOMAIN-SUFFIX,sonypcl.jp
 DOMAIN-SUFFIX,sonyprotechnosupport.co.jp
 DOMAIN-SUFFIX,sonystoragemedia.co.jp # Sony Storage Media Solutions Corporation
 DOMAIN-SUFFIX,sonytc.co.jp
 DOMAIN-SUFFIX,sovec.net
-DOMAIN-SUFFIX,so-net.net.tw
 
 DOMAIN-SUFFIX,spacex.com
 DOMAIN-SUFFIX,starlink.com
@@ -9127,6 +9160,8 @@ DOMAIN-SUFFIX,boringcompany.com
 
 DOMAIN-SUFFIX,timeweb.cloud
 DOMAIN-SUFFIX,timeweb.com
+DOMAIN-SUFFIX,timeweb.tech
+DOMAIN-SUFFIX,timewebcloud.kz
 DOMAIN-SUFFIX,twcstorage.ru
 
 DOMAIN-SUFFIX,internetdownloadmanager.com
@@ -9486,6 +9521,11 @@ DOMAIN-SUFFIX,ysm.yahoo.com
 
 DOMAIN-SUFFIX,kinopoisk.ru
 DOMAIN-SUFFIX,kinopoisk-ru.clstorage.net
+DOMAIN-SUFFIX,kp.yandex.net
+
+# Smart TV app
+DOMAIN,kp-config-smart-tv.akamaized.net
+DOMAIN,kp-configs-smart-tv.s3.eu-central-1.amazonaws.com
 
 
 # All .yandex domains
@@ -9495,30 +9535,44 @@ DOMAIN-SUFFIX,yandex
 DOMAIN-SUFFIX,xn--d1acpjx3f.xn--p1ai
 
 DOMAIN-SUFFIX,berizaryad.ru
+DOMAIN-SUFFIX,beru.ru
+DOMAIN-SUFFIX,bookmate.ru
 DOMAIN-SUFFIX,cabconnect.org
 DOMAIN-SUFFIX,clck.ru
 DOMAIN-SUFFIX,clstorage.net
+DOMAIN-SUFFIX,delivery-club.ru
 DOMAIN-SUFFIX,driveawaytaxi.org
+DOMAIN-SUFFIX,edadeal.ru
 DOMAIN-SUFFIX,elama.ru
+DOMAIN-SUFFIX,foodfox.ru
 DOMAIN-SUFFIX,gogettaxi.org
 DOMAIN-SUFFIX,goup.ai
 DOMAIN-SUFFIX,hayya.ae
+DOMAIN-SUFFIX,market.ru
 DOMAIN-SUFFIX,meteum.ai
 DOMAIN-SUFFIX,my-manager-account.com
 DOMAIN-SUFFIX,naydex.net
 DOMAIN-SUFFIX,realtyverif.ru
 DOMAIN-SUFFIX,rostaxi.org
+DOMAIN-SUFFIX,rutaxi.ru
 DOMAIN-SUFFIX,shedevrum.ai
+DOMAIN-SUFFIX,shedevrum.com
+DOMAIN-SUFFIX,shedevrum.ru
 DOMAIN-SUFFIX,sourcecraft.dev
 DOMAIN-SUFFIX,static-storage.net
 DOMAIN-SUFFIX,support-uber.com
 DOMAIN-SUFFIX,taxiaid.org
 DOMAIN-SUFFIX,taxiguru.org
 DOMAIN-SUFFIX,taxitax.org
+DOMAIN-SUFFIX,thequestion.ru
 DOMAIN-SUFFIX,turbopages.org
+DOMAIN-SUFFIX,vezet.ru
 DOMAIN-SUFFIX,ya.cc
 DOMAIN-SUFFIX,ya.ru
+DOMAIN-SUFFIX,yadi.sk
+DOMAIN-SUFFIX,yandex-ad.cn
 DOMAIN-SUFFIX,yandex-bank.net
+DOMAIN-SUFFIX,yandex-team.com
 DOMAIN-SUFFIX,yandex-team.ru
 DOMAIN-SUFFIX,yandex.aero
 DOMAIN-SUFFIX,yandex.asia
@@ -9543,22 +9597,29 @@ DOMAIN-SUFFIX,yandex.kg
 DOMAIN-SUFFIX,yandex.kz
 DOMAIN-SUFFIX,yandex.lt
 DOMAIN-SUFFIX,yandex.lv
+DOMAIN-SUFFIX,yandex.market
 DOMAIN-SUFFIX,yandex.md
 DOMAIN-SUFFIX,yandex.mobi
 DOMAIN-SUFFIX,yandex.net
+DOMAIN-SUFFIX,yandex.net.ru
 DOMAIN-SUFFIX,yandex.org
 DOMAIN-SUFFIX,yandex.pl
+DOMAIN-SUFFIX,yandex.pro
 DOMAIN-SUFFIX,yandex.ru
 DOMAIN-SUFFIX,yandex.st
 DOMAIN-SUFFIX,yandex.sx
+DOMAIN-SUFFIX,yandex.taxi
 DOMAIN-SUFFIX,yandex.tj
 DOMAIN-SUFFIX,yandex.tm
 DOMAIN-SUFFIX,yandex.tr
+DOMAIN-SUFFIX,yandex.travel
 DOMAIN-SUFFIX,yandex.ua
 DOMAIN-SUFFIX,yandex.uz
 DOMAIN-SUFFIX,yandexadexchange.net
 DOMAIN-SUFFIX,yandexcloud.net
 DOMAIN-SUFFIX,yandexcom.net
+DOMAIN-SUFFIX,yandexdataschool.com
+DOMAIN-SUFFIX,yandexdataschool.ru
 DOMAIN-SUFFIX,yandexgo.com
 DOMAIN-SUFFIX,yandexlyceum.ru
 DOMAIN-SUFFIX,yandexwebcache.net
@@ -9580,6 +9641,7 @@ DOMAIN-SUFFIX,yastat.net
 DOMAIN-SUFFIX,yastatic-net.ru
 DOMAIN-SUFFIX,yastatic.net
 DOMAIN-SUFFIX,yccdn.ru
+DOMAIN-SUFFIX,ydb.tech
 DOMAIN-SUFFIX,yndx.net
 
 # Ads and tracking
@@ -9604,7 +9666,8 @@ DOMAIN-SUFFIX,metrika.yandex.net
 DOMAIN-SUFFIX,metrika.yandex.ru
 DOMAIN-SUFFIX,webvisor.com
 DOMAIN-SUFFIX,webvisor.org
-DOMAIN-SUFFIX,yabs.yandex.ru
+## Disrupts the operation of the Yandex.Direct service
+# yabs.yandex.ru
 DOMAIN-SUFFIX,yads.tech
 DOMAIN-SUFFIX,yandex-metrica.ru
 DOMAIN-SUFFIX,yandexmetrica.com

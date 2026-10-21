@@ -11,6 +11,7 @@
         "production-openaicom-storage.azureedge.net",
         "browser-intake-datadoghq.com",
         "o33249.ingest.sentry.io",
+        "o33249.ingest.us.sentry.io",
         "openai.qualtrics.com"
       ],
       "domain_suffix": [
@@ -22,6 +23,7 @@
         "oaistatsig.com",
         "oaiusercontent.com",
         "openai.com",
+        "openai.org",
         "sora.com",
         "openai.com.cdn.cloudflare.net",
         "chatgpt.livekit.cloud",

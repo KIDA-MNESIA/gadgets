@@ -2,6 +2,9 @@
   "version": 1,
   "rules": [
     {
+      "domain": [
+        "drivers.amd.com"
+      ],
       "domain_suffix": [
         "amd.com",
         "amd.com.cn",

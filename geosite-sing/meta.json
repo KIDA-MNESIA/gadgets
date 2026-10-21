@@ -103,10 +103,9 @@
         "facebook.cc",
         "facebook.com",
         "facebook.design",
-        "facebook.net",
         "facebook.hu",
         "facebook.in",
-        "fecebook.net",
+        "facebook.net",
         "facebook.nl",
         "facebook.org",
         "facebook.se",
@@ -313,6 +312,7 @@
         "fecbooc.com",
         "fecbook.com",
         "feceboock.com",
+        "fecebook.net",
         "feceboox.com",
         "fececbook.com",
         "feook.com",
@@ -382,6 +382,7 @@
         "sportstream.com",
         "supportfacebook.com",
         "terragraph.com",
+        "tfbnw.net",
         "thefacebook.com",
         "thefacebook.net",
         "thefind.com",
@@ -553,12 +554,12 @@
         "whatsapp.org",
         "whatsapp.tv",
         "whatsappbrand.com",
-        "graph.whatsapp.com",
-        "graph.whatsapp.net",
         "atmeta.com",
         "llama.com",
         "meta.ai",
-        "meta.com"
+        "meta.com",
+        "metaaivm.com",
+        "muse.ai"
       ]
     }
   ]

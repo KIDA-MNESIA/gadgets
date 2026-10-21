@@ -36,6 +36,17 @@
         "watchanimeattheoffice.com",
         "discordapp.io",
         "discordcdn.com",
+        "fluxer.app",
+        "fluxer.com",
+        "fluxer.dev",
+        "fluxer.gg",
+        "fluxer.gift",
+        "fluxer.media",
+        "fluxer.tools",
+        "fluxerapp.com",
+        "fluxerstatus.com",
+        "fluxerstatic.com",
+        "fluxerusercontent.com",
         "freenode.net",
         "intercom.com",
         "intercom.io",
@@ -153,8 +164,6 @@
         "whatsapp.org",
         "whatsapp.tv",
         "whatsappbrand.com",
-        "graph.whatsapp.com",
-        "graph.whatsapp.net",
         "botim.me"
       ]
     }
