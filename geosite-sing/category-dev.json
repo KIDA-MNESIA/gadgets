@@ -468,6 +468,8 @@
         "readthedocs.com",
         "readthedocs.io",
         "readthedocs.org",
+        "redhat.com",
+        "redhat.org",
         "redis.io",
         "redislabs.com",
         "ruby-lang.org",
@@ -476,8 +478,6 @@
         "rustup.rs",
         "crates.io",
         "docs.rs",
-        "redhat.com",
-        "redhat.org",
         "scala-lang.org",
         "scala-sbt.org",
         "getsentry.com",
@@ -677,7 +677,12 @@
         "elegantthemes.com",
         "hivepress.io",
         "motopress.com",
-        "wpmailsmtp.com"
+        "wpmailsmtp.com",
+        "templatemonster.com",
+        "tmimgcdn.com",
+        "getsafety.com",
+        "pyup.io",
+        "safetycli.com"
       ],
       "domain_regex": [
         ".+\\.dkr\\.ecr\\.[^\\.]+\\.amazonaws\\.com$"
