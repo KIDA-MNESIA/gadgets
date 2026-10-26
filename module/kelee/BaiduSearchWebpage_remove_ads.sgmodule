@@ -9,7 +9,7 @@
 #!date=2026-10-02 13:57:49
 
 [Script]
-移除百度搜索首页信息流广告 = type=http-response, pattern="(?i)^https?:\/\/(www|m)\.baidu\.com\/?($|\?from=\w{8,9})", script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_BaiduSearchHomePage_remove_ads-a135cb3585712703.js, requires-body=true
+移除百度搜索首页信息流广告 = type=http-response, pattern="(?i)^https?:\/\/(www|m)\.baidu\.com\/?($|\?(?:[^#?&]+&)*from=\w{8,9})", script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_BaiduSearchHomePage_remove_ads-a135cb3585712703.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% m.baidu.com, www.baidu.com

@@ -12,11 +12,11 @@
 #!arguments-desc=cron: 定时参数\n这里需要输入符合CRON表达式的参数
 
 [Script]
-Sub-Store Core = type=http-request, pattern=(?i)^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))), script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-sub-store-org_sub-store-1.min-90f00188571807fc.js, requires-body=true, timeout=120
+Sub-Store Core = type=http-request, pattern=(?i)^https?:\/\/sub\.store\/((download)|api\/(preview|sync|(utils\/node-info))), script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-sub-store-org_sub-store-1.min-5818bc626d203a6b.js, requires-body=true, timeout=120
 
-Sub-Store Simple = type=http-request, pattern=(?i)^https?:\/\/sub\.store, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-sub-store-org_sub-store-0.min-cb1ead4278af74af.js, requires-body=true, timeout=120
+Sub-Store Simple = type=http-request, pattern=(?i)^https?:\/\/sub\.store, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-sub-store-org_sub-store-0.min-e7bfcaf78bc4ec23.js, requires-body=true, timeout=120
 
-Sub-Store Sync = type=cron, cronexp="{{{cron}}}", script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-sub-store-org_cron-sync-artifacts.min-a56eafe70962b232.js, timeout=120
+Sub-Store Sync = type=cron, cronexp="{{{cron}}}", script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-sub-store-org_cron-sync-artifacts.min-264d52d7e56650e4.js, timeout=120
 
 [MITM]
 hostname = %APPEND% sub.store
