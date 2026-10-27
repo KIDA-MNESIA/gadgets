@@ -4,7 +4,9 @@
     {
       "domain": [
         "azure.microsoft.com",
-        "azuremarketplace.microsoft.com"
+        "azuremarketplace.microsoft.com",
+        "dc.applicationinsights.azure.com",
+        "live.applicationinsights.azure.com"
       ],
       "domain_suffix": [
         "azure",
@@ -89,6 +91,7 @@
         "devopsms.com",
         "gotcosmos.com",
         "hdinsightservices.cn",
+        "in.applicationinsights.azure.com",
         "management-azure-devices-int.net",
         "management-azure-devices-provisioning.cn",
         "management-azure-devices.cn",

@@ -5,6 +5,7 @@
       "domain": [
         "az764295.vo.msecnd.net",
         "bingsettingssearch.trafficmanager.net",
+        "dc.services.visualstudio.com",
         "default.exp-tas.com",
         "developer.microsoft.com",
         "download.visualstudio.microsoft.com",
@@ -14,6 +15,7 @@
         "psg-int-centralus.cloudapp.net",
         "psg-int-eastus.cloudapp.net",
         "rink.hockeyapp.net",
+        "rt.services.visualstudio.com",
         "vscode-sync-insiders.trafficmanager.net",
         "vscode-sync.trafficmanager.net",
         "vscode.blob.core.windows.net",
