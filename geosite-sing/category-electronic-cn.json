@@ -3,12 +3,14 @@
   "rules": [
     {
       "domain_suffix": [
+        "allwinnertech.com",
         "analog.com",
         "arrow.cn",
         "avermedia.cn",
         "boe.com",
         "boe.com.cn",
         "bouffalolab.com",
+        "cambricon.com",
         "cxmt.com",
         "esp32.com",
         "esp8266.cn",
@@ -84,6 +86,7 @@
         "zs-jlc.com",
         "zxhgroup.com",
         "listenai.com",
+        "mthreads.com",
         "nanocorechip.com",
         "rock-chips.com",
         "seeed.cn",
@@ -92,6 +95,8 @@
         "seeedstudio.com.cn",
         "sipeed.com",
         "maixhub.com",
+        "southchip.com",
+        "t-head.cn",
         "ti.com.cn",
         "wch.cn",
         "wch-ic.com",
