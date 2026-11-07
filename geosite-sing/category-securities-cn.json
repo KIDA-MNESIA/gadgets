@@ -3,10 +3,17 @@
   "rules": [
     {
       "domain_suffix": [
+        "bse.cn",
+        "bseinfo.net",
+        "chinahtz.com",
+        "cnindex.com.cn",
+        "cninfo.com.cn",
+        "csindex.com.cn",
         "sse.com.cn",
         "sseinfo.com",
+        "ssetech.com.cn",
         "szse.cn",
-        "cninfo.com.cn",
+        "szsi.cn",
         "chinaclear.cn",
         "hsbc.com.cn",
         "hsbcqh.com.cn",
