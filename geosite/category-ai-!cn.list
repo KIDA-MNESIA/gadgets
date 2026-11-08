@@ -70,6 +70,7 @@ DOMAIN-SUFFIX,githubcopilot.com
 
 DOMAIN,copilot-proxy.githubusercontent.com
 DOMAIN,copilot-workspace.githubnext.com
+DOMAIN,production-copilot-host-westus.webpubsub.azure.com
 
 # Azure Blob Storage
 DOMAIN,copilotprodattachments.blob.core.windows.net
@@ -219,6 +220,7 @@ DOMAIN-SUFFIX,windsurf.com
 
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grok.x.com
+DOMAIN-SUFFIX,grokbot.com
 DOMAIN-SUFFIX,grokipedia.com
 DOMAIN-SUFFIX,x.ai
 
