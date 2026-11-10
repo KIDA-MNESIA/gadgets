@@ -315,6 +315,8 @@
         "golang.com",
         "golang.net",
         "golang.org",
+        "grafana.com",
+        "grafana.net",
         "consul.io",
         "hashicorp.com",
         "nomadproject.io",
