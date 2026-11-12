@@ -1,5 +1,5 @@
 # Surge Rule-Set for NC
-# Generated at 2026-10-21 05:08:35 +0000
+# Generated at 2026-11-12 07:32:21 +0000
 IP-CIDR,27.122.0.0/22
 IP-CIDR,43.224.192.0/22
 IP-CIDR,43.245.212.0/22

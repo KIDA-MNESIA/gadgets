@@ -1,5 +1,5 @@
 # Surge Rule-Set for NF
-# Generated at 2026-10-21 05:08:36 +0000
+# Generated at 2026-11-12 07:32:21 +0000
 IP-CIDR,45.138.10.16/30
 IP-CIDR,81.144.122.154/31
 IP-CIDR,103.43.204.0/23
