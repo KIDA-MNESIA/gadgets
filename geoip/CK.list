@@ -1,5 +1,5 @@
 # Surge Rule-Set for CK
-# Generated at 2026-10-21 05:08:35 +0000
+# Generated at 2026-11-12 07:32:21 +0000
 IP-CIDR,14.137.40.0/23
 IP-CIDR,45.138.10.48/30
 IP-CIDR,103.103.61.164/30
