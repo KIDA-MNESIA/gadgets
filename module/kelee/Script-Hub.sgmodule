@@ -12,7 +12,7 @@
 [Script]
 前端界面 = type=http-request, pattern=(?i)^https?:\/\/script\.hub\/($|edit\/|reload), script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-Script-Hub-Org_script-hub-f99b893402fe30b7.js, timeout=300
 
-Rewrite转换 = type=http-request, pattern=(?i)^https?:\/\/script\.hub\/file\/_start_\/.+type=(?:qx-rewrite|surge-module|loon-plugin|all-module), script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-Script-Hub-Org_Rewrite-Parser-b95ef99a043c934f.js, timeout=300
+Rewrite转换 = type=http-request, pattern=(?i)^https?:\/\/script\.hub\/file\/_start_\/.+type=(?:qx-rewrite|surge-module|loon-plugin|all-module), script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-Script-Hub-Org_Rewrite-Parser-439c97ad4a1aa1bc.js, timeout=300
 
 Rule转换 = type=http-request, pattern=(?i)^https?:\/\/script\.hub\/file\/_start_\/.+type=rule-set, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-Script-Hub-Org_rule-parser-aca523a4e23ba7a3.js, timeout=300
 
