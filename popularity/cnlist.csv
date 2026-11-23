@@ -1,3 +1,4 @@
+81,app-measurement.com
 103,baidu.com
 195,xiaomi.com
 204,shifen.com
@@ -30,8 +31,8 @@
 1081,166.com
 1169,alipaydns.com
 1283,mgslb.com
+1312,bilibili.tv
 1335,baishan-cloud.net
-1389,xinhuanet.com
 1440,jd.com
 1671,kunluncan.com
 1800,vivo.com.cn
@@ -54,7 +55,6 @@
 2463,qianxun.com
 2486,1688.com
 2491,chinadaily.com.cn
-2504,ltwebstatic.com
 2537,uc.cn
 2545,tmall.com
 2623,kwimgs.com
@@ -407,7 +407,9 @@
 19894,upyun.com
 19945,tplinkcloud.com.cn
 19962,300.cn
+19995,igexin.com
 20007,tingyun.com
+20067,media.io
 20105,pptv.com
 20153,cyol.com
 20237,foxitcloud.com
@@ -443,7 +445,6 @@
 22360,kunlunpi.com
 22450,cloudcsp.com
 22647,evtrust.com
-22716,ulikecam.com
 22720,tange365.com
 22801,qy.net
 22832,kuaishou.cn
@@ -531,7 +532,6 @@
 26113,duxiaoman.com
 26131,kunlungem.com
 26132,neea.edu.cn
-26138,biliintl.com
 26143,cnipa.gov.cn
 26201,atianqi.com
 26228,info10.com
@@ -595,6 +595,7 @@
 29003,canva.cn
 29018,9game.cn
 29142,foundersc.com
+29161,cjdropshipping.com
 29179,qnydns.com
 29186,voc.com.cn
 29220,ictun.com
@@ -696,6 +697,7 @@
 34321,znds.com
 34508,gnway.com
 34509,nwpu.edu.cn
+34756,under9.co
 34762,yovole.com
 34927,cqnews.net
 34942,zdic.net
@@ -751,7 +753,6 @@
 37637,mercedes-benz.com.cn
 37697,szgla.com
 37732,cnki.com.cn
-37771,gwadar.cn
 37780,jschina.com.cn
 37967,pinkfong.cn
 38001,oeeee.com
@@ -769,7 +770,6 @@
 38505,faceunity.com
 38671,udache.com
 38672,qunarzz.com
-38684,maxthon.cn
 38698,hwws.cn
 38702,lilithcdn.com
 38741,dahuap2p.com
@@ -906,6 +906,7 @@
 46103,dangbei.com
 46248,dxmpay.com
 46257,starrydyn.com
+46272,megaup.net
 46322,acfun.cn
 46399,jc001.cn
 46505,anhuinews.com
@@ -1158,6 +1159,7 @@
 61776,xinjiang.gov.cn
 61845,ihuaben.com
 61942,x-mol.com
+61982,eplay.com
 62018,crsky.com
 62072,92fb.com
 62076,tuniu.com
@@ -1228,7 +1230,6 @@
 67096,mting.info
 67232,nbjoy.com
 67250,zhenbs.com
-67546,voovmeeting.com
 67674,alipay-eco.com
 67735,yhd.com
 67786,tpddns.cn
@@ -1263,6 +1264,7 @@
 70069,picc.com.cn
 70139,guahao.com
 70180,yeelight.com
+70215,hztscloud.net
 70253,cngold.org
 70511,hhu.edu.cn
 70655,ihep.ac.cn
@@ -1291,7 +1293,6 @@
 73155,baidu-int.com
 73163,chinairn.com
 73479,zhihuishu.com
-73589,priceshoes.com
 73879,gffunds.com.cn
 73945,17k.com
 74263,mnw.cn
@@ -1484,7 +1485,6 @@
 94352,baofeng.net
 94671,cbdtelecom.cn
 94736,csg.cn
-94754,chd.edu.cn
 95609,ncss.org.cn
 95672,hubu.edu.cn
 95755,pc51.com
@@ -1546,6 +1546,7 @@
 98634,kuaikanmanhua.com
 98635,40017.cn
 98658,xiaoe-tech.com
+98667,441ka.com
 98676,bsimb.cn
 98787,03k.org
 98801,leadscloud.com
