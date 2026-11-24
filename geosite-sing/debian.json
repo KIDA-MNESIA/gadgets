@@ -4,7 +4,8 @@
     {
       "domain_suffix": [
         "debian.org",
-        "dotdeb.org"
+        "dotdeb.org",
+        "debian.map.fastlydns.net"
       ]
     }
   ]

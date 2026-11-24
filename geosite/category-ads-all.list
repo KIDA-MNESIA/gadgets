@@ -5083,6 +5083,9 @@ DOMAIN-SUFFIX,antigravity-unleash.goog
 # Stitch
 DOMAIN-SUFFIX,stitch.withgoogle.com
 
+# Gemma
+DOMAIN-SUFFIX,gemma.ai
+
 DOMAIN-SUFFIX,googleplay.com
 DOMAIN-SUFFIX,play-fe.googleapis.com
 DOMAIN-SUFFIX,play-games.googleusercontent.com
@@ -10512,6 +10515,7 @@ DOMAIN-SUFFIX,x.com
 
 DOMAIN-SUFFIX,unity.com
 DOMAIN-SUFFIX,unity3d.com
+DOMAIN-SUFFIX,vivox.com
 
 # Ads/tracking
 # https://github.com/v2fly/domain-list-community/pull/3716
