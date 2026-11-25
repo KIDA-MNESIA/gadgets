@@ -18,9 +18,9 @@ IP-CIDR,203.107.1.1/24,REJECT,no-resolve
 (?i)^https:\/\/api\.alipan\.com\/adrive\/v1\/file\/getTopFolders data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-移除阿里云盘广告 = type=http-response, pattern=(?i)^https:\/\/(biz)?api\.alipan\.com\/apps\/v\d\/users?\/home\/(news|widgets), script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_AliYunDrive_remove_ads-4909ecde19541ad5.js, requires-body=true
+移除阿里云盘广告 = type=http-response, pattern=(?i)^https:\/\/(biz)?api\.alipan\.com\/apps\/v\d\/users?\/home\/(news|widgets), script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_AliYunDrive_remove_ads-4909ecde19541ad5.js, requires-body=true
 
-移除阿里云盘广告 = type=http-response, pattern=(?i)^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_AliYunDrive_remove_ads-4909ecde19541ad5.js, requires-body=true
+移除阿里云盘广告 = type=http-response, pattern=(?i)^https:\/\/member\.alipan\.com\/v1\/users\/onboard_list, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_AliYunDrive_remove_ads-4909ecde19541ad5.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% api.alipan.com, member.alipan.com, bizapi.alipan.com

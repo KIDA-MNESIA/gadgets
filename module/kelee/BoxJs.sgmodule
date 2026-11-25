@@ -10,7 +10,7 @@
 #!date=2026-10-02 13:57:49
 
 [Script]
-BoxJS = type=http-request, pattern=(?i)^https?:\/\/(.+\.)?boxjs\.(com|net), script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-chavyleung_chavy.boxjs-24ab4513d9b210d3.js, requires-body=true, timeout=120
+BoxJS = type=http-request, pattern=(?i)^https?:\/\/(.+\.)?boxjs\.(com|net), script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-chavyleung_chavy.boxjs-24ab4513d9b210d3.js, requires-body=true, timeout=120
 
 [MITM]
 hostname = %APPEND% boxjs.com, boxjs.net, *.boxjs.com, *.boxjs.net

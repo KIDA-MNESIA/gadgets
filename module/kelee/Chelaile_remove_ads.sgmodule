@@ -30,7 +30,7 @@ DOMAIN,ad.chelaile.net.cn,REJECT
 (?i)^https:\/\/api\.chelaile\.net\.cn\/encourage\/activity\/control\? data-type=text data="**YGKJ{}YGKJ##" status-code=200 header="Content-Type:application/json"
 
 [Script]
-清洗配置 = type=http-response, pattern=(?i)^https:\/\/api\.chelaile\.net\.cn\/bus-side\/appToggle\/getStatus\?, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_Chelaile_remove_ads-80b889b0fd9f45da.js, requires-body=true
+清洗配置 = type=http-response, pattern=(?i)^https:\/\/api\.chelaile\.net\.cn\/bus-side\/appToggle\/getStatus\?, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_Chelaile_remove_ads-80b889b0fd9f45da.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% api.chelaile.net.cn, web.chelaile.net.cn, cdn.web.chelaile.net.cn, image3.chelaile.net.cn

@@ -12,9 +12,9 @@
 #!arguments-desc=CaptureAccountToken: 捕获账号令牌\n此开关控制插件是否捕获账户令牌\n可选值: 留空启用, # 禁用\n\nRunTask: 自动加入TF\n此开关控制是否启动定时任务\n可选值: 留空启用, # 禁用\n\nRunMonitor: 监控TF位置\n此开关控制是否启动定时任务\n可选值: 留空启用, # 禁用\n\nTaskCron: 加入TF定时参数\n这里需要输入符合CRON表达式的参数\n\nTaskMonitor: 监控TF定时参数\n这里需要输入符合CRON表达式的参数
 
 [Script]
-{{{CaptureAccountToken}}}获取账号令牌 = type=http-request, pattern=(?i)^https?:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/apps$, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_CaptureAccountToken-91d510d7d283b3e5.js
+{{{CaptureAccountToken}}}获取账号令牌 = type=http-request, pattern=(?i)^https?:\/\/testflight\.apple\.com\/v3\/accounts\/.*\/apps$, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_CaptureAccountToken-91d510d7d283b3e5.js
 
-{{{RunTask}}}自动加入TF = type=cron, cronexp="{{{TaskCron}}}", script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_AutoJoinTF-27dfc19b260b0333.js, timeout=600
+{{{RunTask}}}自动加入TF = type=cron, cronexp="{{{TaskCron}}}", script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_AutoJoinTF-27dfc19b260b0333.js, timeout=600
 
-{{{RunMonitor}}}监控TF位置 = type=cron, cronexp="{{{TaskMonitor}}}", script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_AutoMonitorTF-709cec812e71a2f8.js, timeout=30
+{{{RunMonitor}}}监控TF位置 = type=cron, cronexp="{{{TaskMonitor}}}", script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_AutoMonitorTF-709cec812e71a2f8.js, timeout=30
 

@@ -35,9 +35,9 @@
 (?i)^https:\/\/thor\.weidian\.com\/ares\/collect\.recommendShop\/ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-配置修改 = type=http-response, pattern=(?i)^https:\/\/thor\.weidian\.com\/appconf\/getAppConfig\/, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_getAppConfig-5dfa32387cc7d12b.js, requires-body=true, binary-body-mode=true
+配置修改 = type=http-response, pattern=(?i)^https:\/\/thor\.weidian\.com\/appconf\/getAppConfig\/, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_getAppConfig-5dfa32387cc7d12b.js, requires-body=true, binary-body-mode=true
 
-精简钱包区 = type=http-response, pattern=(?i)^https:\/\/thor\.weidian\.com\/wgs\/wallet\.query\.order\.entrance\/, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_wallet-58668f38684df224.js, requires-body=true, binary-body-mode=true
+精简钱包区 = type=http-response, pattern=(?i)^https:\/\/thor\.weidian\.com\/wgs\/wallet\.query\.order\.entrance\/, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_wallet-58668f38684df224.js, requires-body=true, binary-body-mode=true
 
 [MITM]
 hostname = %APPEND% thor.weidian.com

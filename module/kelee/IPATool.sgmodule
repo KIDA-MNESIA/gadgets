@@ -11,9 +11,9 @@
 #!date=2026-10-02 13:57:49
 
 [Script]
-App Store API = type=http-request, pattern=(?i)^https:\/\/apple-api\.com, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_AppStoreAPI-9dac5e77b13a745a.js, requires-body=true
+App Store API = type=http-request, pattern=(?i)^https:\/\/apple-api\.com, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_AppStoreAPI-9dac5e77b13a745a.js, requires-body=true
 
-安装器 = type=http-request, pattern=(?i)^https:\/\/xiaobai\.app, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_Installer-1c50b23138e1ded6.js
+安装器 = type=http-request, pattern=(?i)^https:\/\/xiaobai\.app, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_Installer-1c50b23138e1ded6.js
 
 [MITM]
 hostname = %APPEND% apple-api.com, xiaobai.app

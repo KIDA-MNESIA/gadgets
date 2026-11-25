@@ -10,9 +10,9 @@
 #!date=2026-10-02 13:57:49
 
 [Script]
-移除开屏广告 = type=http-response, pattern=(?i)^https:\/\/jzts\.cmpassport\.com\/personalized\/getPushContent, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_mobileClouds_remove_ads-ec2ac94692a6d6ce.js, requires-body=true
+移除开屏广告 = type=http-response, pattern=(?i)^https:\/\/jzts\.cmpassport\.com\/personalized\/getPushContent, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_mobileClouds_remove_ads-ec2ac94692a6d6ce.js, requires-body=true
 
-移除应用内广告 = type=http-response, pattern=(?i)^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_mobileClouds_remove_ads-ec2ac94692a6d6ce.js, requires-body=true
+移除应用内广告 = type=http-response, pattern=(?i)^https:\/\/ad\.mcloud\.139\.com\/advertapi\/adv-filter\/, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_mobileClouds_remove_ads-ec2ac94692a6d6ce.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% jzts.cmpassport.com, ad.mcloud.139.com

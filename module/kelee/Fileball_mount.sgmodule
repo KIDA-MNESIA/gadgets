@@ -10,7 +10,7 @@
 #!date=2026-10-02 13:57:49
 
 [Script]
-三合一网盘挂载 = type=http-request, pattern=(?i)^http:\/\/(aliyun|quark|pikpak)\.example\.com, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_Fileball_mount-3f45ed0407ce328a.js, requires-body=true
+三合一网盘挂载 = type=http-request, pattern=(?i)^http:\/\/(aliyun|quark|pikpak)\.example\.com, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_Fileball_mount-3f45ed0407ce328a.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% aliyun.example.com, quark.example.com, pikpak.example.com

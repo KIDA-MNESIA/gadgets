@@ -10,5 +10,5 @@
 #!date=2026-10-02 13:57:49
 
 [Script]
-代理链路检测 = type=generic, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_NodeLinkCheck-d818e8fe704514e5.js
+代理链路检测 = type=generic, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_NodeLinkCheck-d818e8fe704514e5.js
 

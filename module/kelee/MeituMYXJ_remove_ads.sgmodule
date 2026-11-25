@@ -26,7 +26,7 @@ http-response-jq (?i)^https:\/\/api\.meiyan\.com\/operation\/get_config\.json\? 
 (?i)^https:\/\/api\.meiyan\.com\/vip\/permission_update_popup\.json\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-精简首页功能栏目并移除美颜推荐 = type=http-response, pattern=(?i)^https:\/\/api\.meiyan\.com\/operation\/home\.json\?, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_MeituMYXJ_remove_ads-9a50669b814eedd8.js, requires-body=true
+精简首页功能栏目并移除美颜推荐 = type=http-response, pattern=(?i)^https:\/\/api\.meiyan\.com\/operation\/home\.json\?, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_MeituMYXJ_remove_ads-9a50669b814eedd8.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% api.meiyan.com

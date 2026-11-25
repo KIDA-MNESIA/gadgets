@@ -20,7 +20,7 @@ http-response-jq (?i)^https:\/\/(h3\.)?open\.taou\.com\/maimai\/feed\/v6\/detail
 (?i)^https:\/\/(h3\.)?open\.taou\.com\/maimai\/go_gossip_darwin\/external\/v2\/query_flow_cards\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-移除信息流和评论区大块广告 = type=http-response, pattern=(?i)^https:\/\/(h3\.)?open\.taou\.com\/maimai\/(feed|gossip)\/v\d\/(focus_feed|gossip_detail_comment|feed_detail_comment?)\?, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_MaiMai_remove_ads-e941215a83fa4b06.js, requires-body=true
+移除信息流和评论区大块广告 = type=http-response, pattern=(?i)^https:\/\/(h3\.)?open\.taou\.com\/maimai\/(feed|gossip)\/v\d\/(focus_feed|gossip_detail_comment|feed_detail_comment?)\?, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_MaiMai_remove_ads-e941215a83fa4b06.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% open.taou.com, h3.open.taou.com

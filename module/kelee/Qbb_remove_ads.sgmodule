@@ -30,9 +30,9 @@ DOMAIN,apimall.qbb6.com,REJECT
 (?i)^https:\/\/apimall\.qbb6\.com\/mall\/homepage\/data\/get\/v\d$ data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-精简我的页面 = type=http-response, pattern=(?i)^https:\/\/api\.qbb6\.com\/commons\/self\/button\/group\/get\/v\d\?, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_my-11f97d5614fa9e14.js, requires-body=true
+精简我的页面 = type=http-response, pattern=(?i)^https:\/\/api\.qbb6\.com\/commons\/self\/button\/group\/get\/v\d\?, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_my-11f97d5614fa9e14.js, requires-body=true
 
-精简育儿页面 = type=http-response, pattern=(?i)^https:\/\/apipt\.qbb6\.com\/parenting\/pt\/homepage\/get\/v\d\?, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_homepage-777c52e0bb54ff39.js, requires-body=true
+精简育儿页面 = type=http-response, pattern=(?i)^https:\/\/apipt\.qbb6\.com\/parenting\/pt\/homepage\/get\/v\d\?, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_homepage-777c52e0bb54ff39.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% api.qbb6.com, apicommunity.qbb6.com, apipt.qbb6.com, apiuser.qbb6.com, apimall.qbb6.com

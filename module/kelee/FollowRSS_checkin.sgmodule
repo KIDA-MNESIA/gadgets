@@ -12,7 +12,7 @@
 #!arguments-desc=token: csrfToken\n这里需要输入csrfToken的值\n\ncookie: Cookie\n这里需要输入Cookie的值\n\ncron: 定时参数\n这里需要输入符合CRON表达式的参数
 
 [Script]
-Follow每日签到 = type=cron, cronexp="{{{cron}}}", script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_FollowRSS_checkin-531fdce5c2f18b87.js, timeout=120, argument=token="{{{token}}}"&cookie="{{{cookie}}}"
+Follow每日签到 = type=cron, cronexp="{{{cron}}}", script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_FollowRSS_checkin-531fdce5c2f18b87.js, timeout=120, argument=token="{{{token}}}"&cookie="{{{cookie}}}"
 
 [MITM]
 hostname = %APPEND% api.follow.is

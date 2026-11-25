@@ -15,7 +15,7 @@
 (?i)^https:\/\/m\.riskbird\.com\/prod-qbb-api\/searchHotEnt data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-移除推荐老板 = type=http-response, pattern=(?i)^https:\/\/m\.riskbird\.com\/prod-qbb-api\/query\/person\/personRecommend, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_RiskBird_remove_ads-56a1c10a64224238.js, requires-body=true
+移除推荐老板 = type=http-response, pattern=(?i)^https:\/\/m\.riskbird\.com\/prod-qbb-api\/query\/person\/personRecommend, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_RiskBird_remove_ads-56a1c10a64224238.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% m.riskbird.com

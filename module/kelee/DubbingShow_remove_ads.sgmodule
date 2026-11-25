@@ -16,7 +16,7 @@ http-response-jq (?i)^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Friend\/GetRecommen
 http-response-jq (?i)^https:\/\/iosapi\.peiyinxiu\.com\/api\/Union\/HomeData 'delpaths([["obj","data"]])'
 
 [Script]
-移除首页底部弹窗 = type=http-response, pattern=(?i)^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_DubbingShow_remove_ads-00b312e3ed559cfc.js, requires-body=true
+移除首页底部弹窗 = type=http-response, pattern=(?i)^https:\/\/iosapi\.peiyinxiu\.com\/Api\/Film\/GetConfigValue, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_DubbingShow_remove_ads-00b312e3ed559cfc.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% iosapi.peiyinxiu.com

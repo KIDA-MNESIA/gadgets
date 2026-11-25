@@ -27,13 +27,13 @@
 (?i)^https:\/\/games\.mobileapi\.hupu\.com\/3\/8\.0\.86\/bplapi\/banner\/getLocationBanners data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-移除虎扑广告 = type=http-response, pattern=(?i)^https:\/\/fairy\.mobileapi\.hupu\.com\/mang\/preview\/banners, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_HUPU_remove_ads-43ec9962925a76ca.js, requires-body=true
+移除虎扑广告 = type=http-response, pattern=(?i)^https:\/\/fairy\.mobileapi\.hupu\.com\/mang\/preview\/banners, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_HUPU_remove_ads-43ec9962925a76ca.js, requires-body=true
 
-移除虎扑广告 = type=http-response, pattern=(?i)^https:\/\/bbs\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/bbsallapi\/lego\/data, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_HUPU_remove_ads-43ec9962925a76ca.js, requires-body=true
+移除虎扑广告 = type=http-response, pattern=(?i)^https:\/\/bbs\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/bbsallapi\/lego\/data, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_HUPU_remove_ads-43ec9962925a76ca.js, requires-body=true
 
-移除虎扑广告 = type=http-response, pattern=(?i)^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/buffer\/hotList, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_HUPU_remove_ads-43ec9962925a76ca.js, requires-body=true
+移除虎扑广告 = type=http-response, pattern=(?i)^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/buffer\/hotList, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_HUPU_remove_ads-43ec9962925a76ca.js, requires-body=true
 
-移除虎扑广告 = type=http-response, pattern=(?i)^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/bplapi\/user\/v1\/more, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_HUPU_remove_ads-43ec9962925a76ca.js, requires-body=true
+移除虎扑广告 = type=http-response, pattern=(?i)^https:\/\/games\.mobileapi\.hupu\.com\/\d\/\d\.\d\.\d+\/bplapi\/user\/v1\/more, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_HUPU_remove_ads-43ec9962925a76ca.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% games.mobileapi.hupu.com, fairy.mobileapi.hupu.com, bbs.mobileapi.hupu.com, goblin.hupu.com

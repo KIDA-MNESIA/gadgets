@@ -32,7 +32,7 @@ http-response-jq (?i)^https:\/\/venus\.douyucdn\.cn\/venus\/config\/static\/upda
 (?i)^https:\/\/rtbapi\.douyucdn\.cn\/japi\/sign\/app\/getinfo data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-移除首页轮播图和视频流广告 = type=http-response, pattern=(?i)^https:\/\/apiv2\.douyucdn\.cn\/mgapi\/livenc\/home\/getRecV3, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_Douyu_remove_ads-92c8426b0229a89e.js, requires-body=true
+移除首页轮播图和视频流广告 = type=http-response, pattern=(?i)^https:\/\/apiv2\.douyucdn\.cn\/mgapi\/livenc\/home\/getRecV3, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_Douyu_remove_ads-92c8426b0229a89e.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% rtbapi.douyucdn.cn, apiv2.douyucdn.cn, venus.douyucdn.cn

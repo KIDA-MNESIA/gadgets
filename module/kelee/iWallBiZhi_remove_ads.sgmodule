@@ -15,11 +15,11 @@
 (?i)^https:\/\/api\.fzxhmy\.com\/tone\/trending\? data-type=text data="{}" status-code=200 header="Content-Type:application/json"
 
 [Script]
-移除首页广告配置 = type=http-response, pattern=(?i)^https:\/\/api\.fzxhmy\.com\/core\/initialize\?, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_core_initialize-85bb24cccb37499f.js, requires-body=true
+移除首页广告配置 = type=http-response, pattern=(?i)^https:\/\/api\.fzxhmy\.com\/core\/initialize\?, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_core_initialize-85bb24cccb37499f.js, requires-body=true
 
-移除首页轮播图广告 = type=http-response, pattern=(?i)^https:\/\/api\.fzxhmy\.com\/landing\/initialize\?, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_landing_initialize-e799e430ef3f751c.js, requires-body=true
+移除首页轮播图广告 = type=http-response, pattern=(?i)^https:\/\/api\.fzxhmy\.com\/landing\/initialize\?, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_landing_initialize-e799e430ef3f751c.js, requires-body=true
 
-移除头像页横幅跳转 = type=http-response, pattern=(?i)^https:\/\/api\.fzxhmy\.com\/avatar\/landing\?, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_landing-66aec750fd71c6de.js, requires-body=true
+移除头像页横幅跳转 = type=http-response, pattern=(?i)^https:\/\/api\.fzxhmy\.com\/avatar\/landing\?, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_landing-66aec750fd71c6de.js, requires-body=true
 
 [MITM]
 hostname = %APPEND% api.fzxhmy.com

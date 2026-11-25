@@ -3018,10 +3018,15 @@ DOMAIN-SUFFIX,tips.tips
 
 # Telecom operators
 DOMAIN-SUFFIX,inplat.ru
+DOMAIN-SUFFIX,megafon.cloud
 DOMAIN-SUFFIX,megafon.com
 DOMAIN-SUFFIX,megafon.ru
 DOMAIN-SUFFIX,megafonpro.ru
+DOMAIN-SUFFIX,megapbx.ru
+DOMAIN-SUFFIX,megatech-it.ru
 DOMAIN-SUFFIX,mgfn.ru
+DOMAIN-SUFFIX,mobileid.ru
+DOMAIN-SUFFIX,multifon.ru
 DOMAIN-SUFFIX,report-megafon.ru
 DOMAIN-SUFFIX,scartel.ru
 DOMAIN-SUFFIX,yota.ru
@@ -3068,8 +3073,12 @@ DOMAIN-SUFFIX,wink.ru
 
 
 DOMAIN-SUFFIX,azbukainterneta.ru
+DOMAIN-SUFFIX,o7.com
+DOMAIN-SUFFIX,onlime.ru
+DOMAIN-SUFFIX,rostelecom-rb.ru
 DOMAIN-SUFFIX,rostelecom.ru
 DOMAIN-SUFFIX,rt.ru
+DOMAIN-SUFFIX,xn--e1aapchhekkk.xn--p1ai # ростелеком.рф
 
 # Tracking
 DOMAIN,sentry.iptv.rt.ru
@@ -3078,9 +3087,33 @@ DOMAIN-SUFFIX,b2c-digest.ru
 DOMAIN-SUFFIX,t2.ru
 DOMAIN-SUFFIX,tele2.ru
 
+DOMAIN-SUFFIX,baikal-ttk.ru
+DOMAIN-SUFFIX,kttk.ru
+DOMAIN-SUFFIX,myttk.ru
+DOMAIN-SUFFIX,sakhttk.ru
+DOMAIN-SUFFIX,ttc-net.ru
+DOMAIN-SUFFIX,ttk.ru
+DOMAIN-SUFFIX,ttkdv.ru
+DOMAIN-SUFFIX,zsttk.net
+
 DOMAIN-SUFFIX,adygtelecom.com    # Adygea Telephone Company, regional operator
-DOMAIN-SUFFIX,beeline.ru
-DOMAIN-SUFFIX,dom.ru
+DOMAIN-SUFFIX,beeline.ru         # Beeline
+DOMAIN-SUFFIX,cnt.ru             # Central Telegraph
+DOMAIN-SUFFIX,dom.ru             # DOM.RU
+DOMAIN-SUFFIX,goodline.info      # Goodline
+DOMAIN-SUFFIX,goodline.ru        # Goodline
+DOMAIN-SUFFIX,is74.ru            # Intersvyaz
+DOMAIN-SUFFIX,letai.ru           # Tattelecom
+DOMAIN-SUFFIX,lovit.ru           # Lovit
+DOMAIN-SUFFIX,miranda-media.ru   # Mirinda
+DOMAIN-SUFFIX,novotelecom.ru     # Novotelecom
+DOMAIN-SUFFIX,podryad.tv         # Podryad
+DOMAIN-SUFFIX,redcom.ru          # Redcom
+DOMAIN-SUFFIX,redcom.net         # Redcom
+DOMAIN-SUFFIX,sknt.ru            # SkyNet
+DOMAIN-SUFFIX,skynet.ru          # SkyNet
+DOMAIN-SUFFIX,tattelecom.ru      # Tattelecom
+DOMAIN-SUFFIX,vladlink.ru        # Vladlink
 DOMAIN-SUFFIX,mcc250.pub.3gppnetwork.org # Mobile IMS
 
 # Other services

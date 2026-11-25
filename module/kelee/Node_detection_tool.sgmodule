@@ -9,9 +9,9 @@
 #!date=2026-10-02 13:57:49
 
 [Script]
-入口落地查询 = type=generic, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_NetworkEntryAndExitQueries-49b9deb2341a2225.js, timeout=10
+入口落地查询 = type=generic, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_NetworkEntryAndExitQueries-49b9deb2341a2225.js, timeout=10
 
-地理位置查询 = type=generic, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_LocationDetection-90669adf74e79898.js, timeout=10
+地理位置查询 = type=generic, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_LocationDetection-90669adf74e79898.js, timeout=10
 
-节点解锁查询 = type=generic, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_NodeUnlockDetection-06e955266ac6cc53.js, timeout=20
+节点解锁查询 = type=generic, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_NodeUnlockDetection-06e955266ac6cc53.js, timeout=20
 

@@ -10,19 +10,19 @@
 #!date=2026-10-02 13:57:49
 
 [Script]
-跟踪响应·JSON = type=http-response, pattern=(?i)^https?:\/\/api\.spotify\.com\/v1\/tracks\?, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_Spotify_response-3de8776a9e1d37f6.js, requires-body=true
+跟踪响应·JSON = type=http-response, pattern=(?i)^https?:\/\/api\.spotify\.com\/v1\/tracks\?, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_Spotify_response-3de8776a9e1d37f6.js, requires-body=true
 
-歌词请求·JSON = type=http-request, pattern=(?i)^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/(.+)\?(.*)format=json, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_Spotify_request-879d022f761667e7.js, requires-body=true
+歌词请求·JSON = type=http-request, pattern=(?i)^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/(.+)\?(.*)format=json, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_Spotify_request-879d022f761667e7.js, requires-body=true
 
-歌词请求·Proto = type=http-request, pattern=(?i)^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/\w+\?(.*), script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_Spotify_request-879d022f761667e7.js, requires-body=true, binary-body-mode=true
+歌词请求·Proto = type=http-request, pattern=(?i)^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/\w+\?(.*), script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_Spotify_request-879d022f761667e7.js, requires-body=true, binary-body-mode=true
 
-翻译歌词响应·JSON = type=http-response, pattern=(?i)^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/(.+)\?(.*)format=json(.*)subtype=Translate, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_Translate_response-8d93f76a8e58f607.js, requires-body=true
+翻译歌词响应·JSON = type=http-response, pattern=(?i)^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/(.+)\?(.*)format=json(.*)subtype=Translate, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_Translate_response-8d93f76a8e58f607.js, requires-body=true
 
-翻译歌词响应·Proto = type=http-response, pattern=(?i)^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/\w+\?(.*)subtype=Translate, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_Translate_response-8d93f76a8e58f607.js, requires-body=true, binary-body-mode=true
+翻译歌词响应·Proto = type=http-response, pattern=(?i)^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/\w+\?(.*)subtype=Translate, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_Translate_response-8d93f76a8e58f607.js, requires-body=true, binary-body-mode=true
 
-外部歌词响应·JSON = type=http-response, pattern=(?i)^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/(.+)\?(.*)format=json(.*)subtype=External, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_External_Lyrics_response-cc152dab19706137.js, requires-body=true
+外部歌词响应·JSON = type=http-response, pattern=(?i)^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/(.+)\?(.*)format=json(.*)subtype=External, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_External_Lyrics_response-cc152dab19706137.js, requires-body=true
 
-外部歌词响应·Proto = type=http-response, pattern=(?i)^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/\w+\?(.*)subtype=External, script-path=https://raw.githubusercontent.com/KIDA-MNESIA/gadgets/main/module/kelee/script-kelee_External_Lyrics_response-cc152dab19706137.js, requires-body=true, binary-body-mode=true
+外部歌词响应·Proto = type=http-response, pattern=(?i)^https?:\/\/spclient\.wg\.spotify\.com\/color-lyrics\/v2\/track\/\w+\?(.*)subtype=External, script-path=https://raw.githubusercontent.com/yescomputer/gadgets/main/module/kelee/script-kelee_External_Lyrics_response-cc152dab19706137.js, requires-body=true, binary-body-mode=true
 
 [MITM]
 hostname = %APPEND% api.spotify.com, spclient.wg.spotify.com
