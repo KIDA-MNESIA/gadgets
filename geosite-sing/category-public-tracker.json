@@ -144,7 +144,6 @@
         "opentracker.acgnx.com",
         "opentracker.acgnx.se",
         "opentracker.io",
-        "opentrackr.org",
         "oscar.reyesleon.xyz",
         "p2p.0g.cx",
         "p2p.publictracker.xyz",
@@ -317,7 +316,6 @@
         "tracker.nighthawk.pw",
         "tracker.open-internet.nl",
         "tracker.openbittorrent.com",
-        "tracker.opentrackr.org",
         "tracker.picotorrent.one",
         "tracker.pirateparty.gr",
         "tracker.plx.im",
@@ -425,6 +423,8 @@
         "mvgroup.org",
         "nnm-club.cc",
         "nnm-club.info",
+        "opentracker.xyz",
+        "opentrackr.org",
         "peckservers.com",
         "searchtor.to",
         "shnflac.net",
@@ -441,6 +441,7 @@
         "worldboxingvideoarchive.com",
         "xwt-classics.net",
         "yuwabits.net",
+        "zer0day.ch",
         "zone-torrent.net"
       ]
     }
